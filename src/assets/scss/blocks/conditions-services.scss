@@ -1,0 +1,32 @@
+.conditions-services {
+    padding: 70px 0;
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.1;
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+.conditions-services__type {
+    margin-bottom: 50px;
+
+    &-title {
+        margin-bottom: 30px;
+    }
+
+    &-row {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-col {
+        width: 525px;
+        margin-bottom: 20px;
+    }
+}

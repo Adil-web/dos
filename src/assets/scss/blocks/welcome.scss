@@ -1,0 +1,73 @@
+.welcome {
+    padding: 80px 0 140px;
+    background-color: $gray;
+}
+
+.welcome-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    z-index: 1000;
+    max-width: 400px; 
+    min-height: 500px;
+    max-height: 600px;   
+    padding: 60px 40px 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background-color: #fff;    
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.3);
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 30px;
+    }
+    &__description {
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+    &__btn {
+        margin-top: auto;
+        width: 200px;
+        align-self: center;
+        font-weight: 500;
+    }
+}
+
+.welcome-image {
+    position: absolute;
+    bottom: -10%;
+    left: 35%;
+    z-index: 5;
+    img {
+        display: block;
+        width: 600px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+}
+
+.welcome-decoration {
+    &__circle {
+        height: 150px;
+        width: 150px;
+        display: block;
+        position: absolute;
+        bottom: 65%;
+        right: 55px;
+        z-index: 1;
+
+        .st0{
+            fill: none;
+            stroke-miterlimit: 10;
+            stroke: #7BBCDF;
+          }
+    }
+}

@@ -1,0 +1,141 @@
+.container--header {
+    @media (min-width: 1200px) {
+        max-width: 1300px !important;
+    }
+}
+
+.navbar {
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    .navbar-nav {
+        margin: 0 0 0 2rem;
+    }
+
+    .search-form {
+    }
+}
+
+
+
+.navbar-brand {
+    margin-right: 0;
+
+    &__logo {
+        display: block;
+        width: auto;
+        height: 40px;    
+    }
+}
+
+.nav-item {
+    display: block;
+    margin-right: 1.5rem;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &--call:hover .phone-call {
+        opacity: 1;
+    }
+
+    &--call:focus .phone-call {
+        opacity: 1;
+    }
+}
+
+.active > .nav-line  {
+    width: 100%;
+}
+
+.nav-line {
+    display: block;
+    width: 0;
+    height: 2px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-color: $white;
+    
+    transition: width .2s linear;
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    color: rgba($white, .8);
+
+    transition: color .2s linear;
+
+    &--call {
+        padding-right: 1.5rem;
+    }
+
+    &:hover {
+        color: rgba($white, 1);
+    }
+
+    &:focus {
+        color: rgba($white, 1);
+    }
+
+    &:hover + .nav-line {
+        width: 100%;
+    }
+
+    &:focus + .nav-line{
+        width: 100%;
+    }
+}
+
+.phone-call {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -1;
+
+    transform: translateY(-50%);
+    opacity: 0.8;
+
+    transition: opacity .2s linear;
+}
+
+.search-form {
+    margin-left: auto;
+    transform: translateY(5%);
+    
+    &__input {
+        margin-right: 0.5rem;
+
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+
+        &:focus  {
+            box-shadow: none;
+            border: none;        
+        }
+    }
+
+    &__button {
+        border: none;
+        background: transparent;
+        
+        img {
+            display: block;
+            width: 1.9rem;
+            height: 1.9rem;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.spiral {
+    padding: 80px 0 120px;
+}
+
+.spiral-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.spiral-links {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    ul {
+        width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        
+        li {
+            text-align: center;
+            width: 200px;
+            a {
+                display: block;
+                font-size: 1.5rem;
+                font-weight: 500;
+                opacity: 0;
+            }
+        }
+    }
+
+    &__link1 {
+        color: #FF6C02;
+    }
+    &__link2 {
+        color: #FFE902;
+    }
+    &__link3 {
+        color: #20d052;
+    }
+    &__link4 {
+        color: #2dd9e9;
+    }
+    &__link5 {
+        color: #3469da;
+    }
+    &__link6 {
+        color: #cc1717;
+    }
+}
+
+.spiral-inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helix-static__path--1, .helix-static__path--2 {
+    stroke-dasharray: 1045.10205078125;
+    stroke-dashoffset: 1045.10205078125;
+}
+
+.helix--desktop {
+    display: block;
+}
+
+.spiral.start {
+    .helix-static__path--1, .helix-static__path--2 {
+        animation: dash 7s 1s ease-out
+        alternate
+        infinite
+        none
+        running;
+    }
+
+    .st3, .spiral-links__link1 {
+        animation: circleAnim 1s linear forwards;
+    }
+    .st8, .spiral-links__link2 {
+        animation: circleAnim 1s 2.5s linear forwards;
+    }
+    .st4, .spiral-links__link3 {
+        animation: circleAnim 1s 3.3s linear forwards;
+    }
+    .st5, .spiral-links__link4 {
+        animation: circleAnim 1s 4.4s linear forwards;
+    }
+    .st6, .spiral-links__link5  {
+        animation: circleAnim 1s 5.5s linear forwards;
+    }
+    .st7, .spiral-links__link6  {
+        animation: circleAnim 1s 6.6s linear forwards;
+    }
+}
+
+.st3, .st4, .st5, .st6, .st7, .st8 {
+    opacity: 0;
+}
+
+@keyframes circleAnim {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/*
+M7,48C30.1,27,53.2,6,99.4,6c92.4,0,92.4,84,184.8,84C376.6,90,376.6,6,469,6 c92.4,0,92.4,84,184.8,84c92.4,0,92.4-84,184.8-84c46.2,0,69.3,21,92.4,42
+*/

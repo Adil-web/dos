@@ -1,0 +1,44 @@
+.services {
+    padding: 80px 0;
+    background-color: rgba(167, 211, 255, 0.462);
+}
+
+.services-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.services-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    text-align: center;
+    font-size: 1.125rem;
+    background-color: #fff;
+    margin-bottom: 40px;
+    color: #212529;
+    border-bottom: 3px solid #fff;
+    transition: border-bottom .2s linear;
+    font-weight: 500;
+    height: 100px;
+
+
+    &:hover {
+        color: #212529;
+        text-decoration: none;
+        border-bottom: 3px solid #212529;
+    }
+
+    span {
+        display: block;
+    }
+}
+
+.services-all {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 30px;
+}

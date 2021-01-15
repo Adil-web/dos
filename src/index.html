@@ -1,0 +1,695 @@
+---
+layout: default
+title: Dos-Medicus
+---
+<section class="toast-wrapper">
+  <div id="top-toast" data-animation="true" class="top-toast toast show">
+    <div class="toast-header">
+      <img src="assets/images/top/top-toast__coronavirus.svg" class="top-toast__icon" alt="">
+      <strong>
+        <a href="#" style="color: #1950ae;">Посещений COVID-19</a>
+      </strong>
+      <button type="button" class="close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="top">
+  <div class="col-12">
+    <div class="top-inner row">
+      <div class="col-8" style="padding: 0;">
+        <div class="top-carousel">
+          <div class="top-carousel__item">
+            <img class="top-carousel__slide"
+              src="assets/images/media/martha-dominguez-de-gouveia-k-NnVZ-z26w-unsplash.jpg" alt="">
+          </div>
+          <div class="top-carousel__item">
+            <img class="top-carousel__slide" src="assets/images/media/hush-naidoo-yo01Z-9HQAw-unsplash.jpg" alt="">
+          </div>
+          <div class="top-carousel__item">
+            <img class="top-carousel__slide" src="assets/images/media/olga-guryanova-tMFeatBSS4s-unsplash.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-4" style="padding: 0;">
+        <div class="top-menu">
+          <div class="row">
+            <div class="col-6">
+              <div class="top-menu__item top-menu__item--primary1">
+                <a href="service-packages.html" class="top-menu__link" style="font-size: 1.5rem;">
+                  <img class="top-menu__icon" src="assets/images/top/top-menu__expenses.svg" alt="">
+                  Пакеты услуг
+                </a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="top-menu__item top-menu__item--primary2">
+                <button data-toggle="modal" data-target="#consultationModal" type="button" class="top-menu__link" style="font-size: 1.5rem;">
+                  <img class="top-menu__icon" src="assets/images/top/top-menu__online.svg" alt="">
+                  Онлайн <br>консультация
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="consultationModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Онлайн консультация</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-row">
+                            <div class="col-12" for="#first-name"><label>Введите Ф.И.О</label></div>
+                            <div class="col">
+                              <input type="text" required  size="50" id="first-name" name="first-name" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="col">
+                              <input type="text" required size="50" id="last-name" name="last-name" class="form-control" placeholder="Фамилия">
+                            </div>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="IIN">Введите ИИН</label>
+                            <input type="text" pattern="[0-9]{12}" name="IIN" required size="12" class="form-control" placeholder="Введите ИИН" id="IIN">
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="target">Цель обращения и текущие жалобы</label>
+                            <textarea placeholder="Цель обращения и текущие жалобы" class="form-control" name="target-reports" id="target" rows="5"></textarea>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="email">Введите e-mail</label>
+                            <input placeholder="example@mail.ru" type="email" required class="form-control" name="email" id="email" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">Мы никогда никому не передадим вашу электронную почту.</small>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="address">Адрес фактического проживания</label>
+                            <input type="text" class="form-control" id="address" placeholder="Кабанбай батыр 12А">
+                          </div>
+                          <div class="form-group mt-2 form-check">
+                            <input required type="checkbox" class="form-check-input" id="check">
+                            <label class="text-left form-check-label" for="check">Ознакомлен, согласие подтверждаю с <a href="#">правилами</a></label>
+                          </div>
+                          <hr>
+                          <button type="submit" class="btn btn-primary">Оплатить услугу</button> 
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="top-menu__item top-menu__item--primary3">
+                <a href="#" class="top-menu__link" style="font-size: 1.5rem;">
+                  <img class="top-menu__icon" src="assets/images/top/top-menu__bed.svg" alt="">
+                  Госпитализация
+                </a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="top-menu__item top-menu__item--primary4">
+                <a href="#" class="top-menu__link" style="font-size: 1.5rem;">
+                  <img class="top-menu__icon" src="assets/images/top/top-menu__contacts.svg" alt="">
+                  Контакты
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Old code -->
+    <!-- <div class="top-header">
+      <h1 class="top-title">Реабилитационный центр</h1>
+      <h2 class="top-descr">Круглосуточный стационар<br>Работаем по ОСМС</h2>
+    </div>
+
+    <div class="discount">
+      <div class="discount-title">В честь открытия Мы дарим скидки:</div>
+      <div class="discount-info">
+        <div class="row">
+          <div class="col-6 d-flex justify-content-end">
+            <div class="discount-percent">
+              <div class="discount-percent__item">
+                <div class="discount-percent__info">Первый месяц</div>
+                <div class="discount-percent__count badge badge-success">- 50%</div>
+              </div>
+              <div class="discount-percent__item">
+                <div class="discount-percent__info">Вотрой месяц</div>
+                <div class="discount-percent__count badge badge-success">- 40%</div>
+              </div>
+              <div class="discount-percent__item ">
+                <div class="discount-percent__info">Третий месяц</div>
+                <div class="discount-percent__count badge badge-success">- 30%</div>
+              </div>
+              <div class="discount-percent__item ">
+                <div class="discount-percent__info">Четвертый месяц</div>
+                <div class="discount-percent__count badge badge-success">- 20%</div>
+              </div>
+              <div class="discount-percent__item">
+                <div class="discount-percent__info">Пятый месяц</div>
+                <div class="discount-percent__count badge badge-success">- 10%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="discount-timer">
+              Set Timer  -- Data type -> (mounth/date/year hourse:minutes:seconds)
+              <div class="countdown" data-date-time="1/5/2021 24:00:00">
+                <div class="item countdown-item">
+                  <div class="days countdown-days">00</div>
+                  <span class="days_ref"></span>
+                </div>
+                <div class="item countdown-item">
+                  <div class="hours countdown-days">00</div>
+                  <span class="hours_ref"></span>
+                </div>
+                <div class="item countdown-item">
+                  <div class="minutes countdown-days">00</div>
+                  <span class="minutes_ref"></span>
+                </div>
+                <div class="item countdown-item">
+                  <div class="seconds countdown-days">00</div>
+                  <span class="seconds_ref"></span>
+                </div>
+              </div>
+            </div>  
+            <div class="btn--wrapper">
+              Button trigger modal 
+              <button type="button" class="btn btn-lg btn-danger btn--top" id="discount-button" data-toggle="modal"
+                data-target="#topModal">
+                Получить скидку
+              </button>
+              Modal
+              <div class="modal fade" id="topModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="topModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Скидка</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Успей получть скидку!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                      <button type="button" class="btn btn-primary">Отправить данные</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<section class="video">
+  <div class="container-fluid">
+    <a class="video-wrapper" href="#">
+      <h2 class="video-title">Перейти к видео альбому</h2>
+      <div class="video-inner embed-responsive embed-responsive-16by9">
+        <video muted autoplay loop playsinline class="lozad" data-poster="https://placehold.it/1200x675">
+          <source data-src="assets/images/video/main-video.mp4" type="video/mp4">
+          <!-- <source data-src="video/mov_bbb.ogg" type="video/ogg"> -->
+        </video>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="welcome">
+  <div class="container">
+    <div class="welcome-wrapper">
+      <div class="welcome-content">
+        <h1 class="welcome-content__title">Добро пожаловать в DOS MEDICUS!</h1>
+        <p class="welcome-content__description">Далеко-далеко, за словесными горами в стране гласных и согласных живут
+          рыбные тексты. Маленькая, одна, предложения оксмокс пунктуация от всех вдали которой, скатился буквенных
+          страну необходимыми эта домах ты большого последний на берегу рот текстами.</p>
+        <a class="welcome-content__btn btn btn-lg btn-outline-success" href="#">Больше</a>
+      </div>
+      <div class="welcome-image">
+        <img src="assets/images/media/facade.jpg" alt="Фасад здания">
+      </div>
+      <div class="welcome-decoration">
+        <div class="welcome-decoration__circle">
+          <span aria-hidden="true">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 116.9 116.9"
+              style="enable-background:new 0 0 116.9 116.9;" xml:space="preserve">
+              <g>
+                <g>
+                  <path class="st0"
+                    d="M56.6,77.7c-10.6-1-18.4-10.4-17.4-21.1c1-10.6,10.4-18.4,21.1-17.4c10.6,1,18.4,10.4,17.4,21.1
+                  C76.7,70.9,67.2,78.7,56.6,77.7z M56.3,81.2C43.7,80,34.5,68.8,35.7,56.3S48,34.6,60.6,35.7C73.1,36.9,82.4,48,81.2,60.6
+                  S68.8,82.4,56.3,81.2z M55.9,84.7C41.4,83.3,30.8,70.5,32.2,56c1.4-14.5,14.2-25.1,28.7-23.7C75.4,33.6,86,46.5,84.7,60.9
+                  C83.3,75.4,70.4,86,55.9,84.7z M55.6,88.2C39.2,86.6,27.2,72,28.7,55.6c1.6-16.4,16.1-28.4,32.6-26.9
+                  c16.4,1.6,28.4,16.1,26.9,32.5C86.6,77.7,72,89.7,55.6,88.2z M55.3,91.7c-18.3-1.8-31.8-18-30-36.4c1.8-18.3,18-31.8,36.4-30
+                  c18.3,1.8,31.8,18,30,36.4C89.9,80,73.6,93.4,55.3,91.7z M54.9,95.1c-20.3-1.9-35.1-19.9-33.2-40.2c1.9-20.3,19.9-35.1,40.2-33.2
+                  C82.2,23.6,97,41.6,95.1,61.9C93.2,82.2,75.2,97.1,54.9,95.1z M54.6,98.6c-22.2-2.1-38.5-21.8-36.4-44s21.8-38.5,44-36.4
+                  s38.5,21.8,36.4,44C96.5,84.5,76.8,100.8,54.6,98.6z M54.3,102.1c-24.1-2.3-41.8-23.7-39.5-47.9c2.3-24.1,23.7-41.8,47.9-39.5
+                  c24.1,2.3,41.8,23.7,39.5,47.9C99.8,86.7,78.4,104.4,54.3,102.1z M53.9,105.6c-26-2.5-45.1-25.6-42.6-51.7
+                  c2.4-26,25.6-45.1,51.7-42.6c26,2.4,45.1,25.6,42.6,51.7C103.1,89,80,108.1,53.9,105.6z M53.6,109.1c-28-2.7-48.5-27.5-45.8-55.5
+                  S35.3,5.1,63.3,7.8s48.5,27.5,45.8,55.5C106.5,91.3,81.6,111.8,53.6,109.1z M53.3,112.6c-29.9-2.9-51.9-29.4-49-59.4
+                  c2.9-29.9,29.4-51.9,59.4-49c29.9,2.9,51.9,29.4,49,59.4C109.8,93.5,83.2,115.5,53.3,112.6z M52.9,116.1
+                  C21,113.1-2.3,84.8,0.7,52.9C3.8,21.1,32.1-2.3,64,0.8c31.9,3,55.2,31.3,52.2,63.2C113.1,95.8,84.8,119.2,52.9,116.1z">
+                  </path>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="spiral">
+  <div class="container">
+    <h2 class="spiral-title">
+      Сеть ресурсов и вариантов ухода для улучшения качества вашей жизни
+    </h2>
+
+    <div class="spiral-inner">
+      <div class="spiral-links">
+        <ul>
+          <li>
+            <a class="spiral-links__link1" href="#">Больница реабилитации
+            </a>
+          </li>
+          <li>
+            <a class="spiral-links__link2" href="#"> Долгосрочное острое
+            </a>
+          </li>
+          <li>
+            <a class="spiral-links__link3" href="#"> Квалифициро-</br>ванный уход
+            </a>
+          </li>
+          <li>
+            <a class="spiral-links__link4" href="#"> Амбулаторно
+            </a>
+          </li>
+          <li>
+            <a class="spiral-links__link5" href="#"> Дома
+            </a>
+          </li>
+          <li>
+            <a class="spiral-links__link6" href="#">Велнес</a>
+          </li>
+        </ul>
+      </div>
+      <!-- <img src="./assets/images/spiral.svg" alt="test" class="helix--mobile-tablet"> -->
+      <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="305" width="955" viewBox="0 0 955 305"
+        version="1.1" class="helix--desktop">
+        <style type="text/css">
+          .st0 {
+            display: none;
+            opacity: 0.2;
+            fill: none;
+            stroke: #808080;
+            enable-background: new;
+          }
+
+          .helix-static__path--2 {
+            opacity: 1;
+            fill: none;
+            stroke: url(#helix-static__linear-gradient--1);
+            enable-background: new;
+            stroke-width: 4;
+          }
+
+          .helix-static__path--1 {
+            opacity: 1;
+            fill: none;
+            stroke: url(#helix-static__linear-gradient--2);
+            enable-background: new;
+            stroke-width: 4;
+          }
+
+          .st3 {
+            fill: #FF6C02;
+            stroke: #FFFFFF;
+            stroke-width: 6;
+          }
+
+          .st4 {
+            fill: #20d052;
+            stroke: #FFFFFF;
+            stroke-width: 6;
+          }
+
+          .st5 {
+            fill: #2dd9e9;
+            stroke: #FFFFFF;
+            stroke-width: 6;
+          }
+
+          .st6 {
+            fill: #3469da;
+            stroke: #FFFFFF;
+            stroke-width: 6;
+          }
+
+          .st7 {
+            fill: #cc1717;
+            stroke: #FFFFFF;
+            stroke-width: 6;
+          }
+
+          .st8 {
+            fill: #FFE902;
+            stroke: #FFFFFF;
+            stroke-width: 6;
+          }
+        </style>
+        <g transform="translate(-77.000000, 0.000000)" class="helix-wrapper">
+          <!-- <path d="M92,177c44.7-44.4,92.4-84,182-84s122,24.6,187,83s140,126,279,126c139,0,207.5-63,277-126       " -->
+          <!-- class="helix-path helix-path--1 js-helix-path its-showtime"></path> -->
+          <!-- <path d="M1017,176c-44.7-44.4-92.4-84-182-84s-122,24.6-187,83S508,301,369,301       c-139,0-207.5-63-277-126" -->
+          <!-- class="helix-path helix-path--2 js-helix-path its-showtime"></path> -->
+          <!-- <path d="M1017,175c-44.7,44.4-92.4,84-182,84s-122-24.6-187-83S508,50,369,50       c-139,0-207.5,63-277,126" -->
+          <!-- class="helix-path helix-path--3 js-helix-path its-showtime"></path> -->
+          <!-- <path d="M92,174c44.7,44.4,92.4,84,182,84s125-24.6,190-83S601,49,740,49c139,0,207.5,63,277,126" -->
+          <!-- class="helix-path helix-path--4 js-helix-path its-showtime"></path> -->
+          <!-- <path -->
+          <!-- d="M94,174C185.9,90.5,277.7,7,461.5,7C645.2,7,737.1,90.5,829,174l3,3.7       c22.8,20.8,45.9,41.3,91.6,41.3c46.2,0,69.3-21,92.4-42" -->
+          <!-- class="helix-path helix-path--5 js-helix-path its-showtime"></path> -->
+          <!-- <path -->
+          <!-- d="M1016,173C924.1,89.5,832.3,6,648.5,6C464.8,6,372.9,89.5,281,173l-3,3.7       c-22.8,20.8-45.9,41.3-91.6,41.3c-46.2,0-69.3-21-92.4-42" -->
+          <!-- class="helix-path helix-path--6 js-helix-path its-showtime"></path> -->
+
+          <g class="helix" transform="translate(86.000000, 128.000000)" id="Group-30">
+
+            <linearGradient gradientTransform="matrix(924 0 0 -84 -428256 4623)" y2="54.4643" x2="464.4881" y1="54.4643"
+              x1="463.4881" gradientUnits="userSpaceOnUse" id="helix-static__linear-gradient--1">
+              <stop style="stop-color:#FF6C02" offset="0"></stop>
+              <stop style="stop-color:#FFE902" offset="0.2004"></stop>
+              <stop style="stop-color:#20d052" offset="0.3999"></stop>
+              <stop style="stop-color:#2dd9e9" offset="0.6"></stop>
+              <stop style="stop-color:#3469da" offset="0.8"></stop>
+              <stop style="stop-color:#cc1717" offset="1"></stop>
+            </linearGradient>
+
+            <path d="M7,48C30.1,27,53.2,6,99.4,6c92.4,0,92.4,84,184.8,84C376.6,90,376.6,6,469,6 c92.4,0,92.4,84,184.8,84c92.4,0,92.4-84,184.8-84c46.2,0,69.3,21,92.4,42
+              " class="helix-static__path--2">
+            </path>
+
+            <linearGradient gradientTransform="matrix(924 0 0 84 -428256 -4197)" y2="50.5357" x2="464.4881" y1="50.5357"
+              x1="463.4881" gradientUnits="userSpaceOnUse" id="helix-static__linear-gradient--2">
+              <stop style="stop-color:#FF6C02" offset="0"></stop>
+              <stop style="stop-color:#FFE902" offset="0.2004"></stop>
+              <stop style="stop-color:#20d052" offset="0.3999"></stop>
+              <stop style="stop-color:#2dd9e9" offset="0.6"></stop>
+              <stop style="stop-color:#3469da" offset="0.8"></stop>
+              <stop style="stop-color:#cc1717" offset="1"></stop>
+            </linearGradient>
+
+            <path
+              d="M7,48c23.1,21,46.2,42,92.4,42c92.4,0,92.4-84,184.8-84c92.4,0,92.4,84,184.8,84       c92.4,0,92.4-84,184.8-84c92.4,0,92.4,84,184.8,84c46.2,0,69.3-21,92.4-42"
+              class="helix-static__path--1">
+            </path>
+
+            <circle r="8.5" cy="48.5" cx="6.5" class="st3" id="Oval-4"></circle>
+            <circle r="8.5" cy="48.5" cx="376.5" class="st4" id="Oval-4_1_"></circle>
+            <circle r="8.5" cy="48.5" cx="561.5" class="st5" id="Oval-4_2_"></circle>
+            <circle r="8.5" cy="48.5" cx="746.5" class="st6" id="Oval-4_3_"></circle>
+            <circle r="8.5" cy="48.5" cx="931.5" class="st7" id="Oval-4_4_"></circle>
+            <circle r="8.5" cy="48.5" cx="191.5" class="st8" id="Oval-4_5_"></circle>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div>
+    </div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="container">
+    <h2 class="services-title">Реабилитационные программы и услуги</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="insult.html" class="services-link"><span>Инсульт</span></a>
+      </div>
+      <div class="col-4">
+        <a href="travmy-golovy.html" class="services-link"><span>Травма головы</span></a>
+      </div>
+      <div class="col-4">
+        <a href="travmy-pozvonochnika.html" class="services-link"><span>Травма позвоночника</span></a>
+      </div>
+      <div class="col-4">
+        <a href="infarkt-miokarda.html" class="services-link"><span>Инфаркт миокарда и кардиохирургических
+            операций</span></a>
+      </div>
+      <div class="col-4">
+        <a href="onkologiya.html" class="services-link"><span>Онкологические заболевания</span></a>
+      </div>
+      <div class="col-4">
+        <a href="endoprotezirovaniia.html" class="services-link"><span>Эндопротезирование и травматология</span></a>
+      </div>
+      <div class="col-4">
+        <a href="posle-operatcii.html" class="services-link"><span>После операций</span></a>
+      </div>
+      <div class="col-4">
+        <a href="geriatriia.html" class="services-link"><span>Гериатрия (уход за пожилыми)</span></a>
+      </div>
+      <div class="col-4">
+        <a href="post-kovidnyi-chek-ap.html" class="services-link"><span>
+            Пост ковидный чек-ап</span></a>
+      </div>
+    </div>
+    <div class="services-all">Посмотреть наш полный <a href="#">список услуг</a></div>
+  </div>
+</section>
+
+<section class="news">
+  <div class="container container--large">
+    <div class="news-header">
+      <h2 class="news-title">Новости</h2>
+      <a class="news-all" href="#">Все новости</a>
+    </div>
+    <div class="news-inner">
+      <div class="news-carousel">
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="assets/images/media/784099.0975753f482c711fcad340e4929a5f13.500.jpg" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Юрий Пя удостоен звания «QURMETTI DÁRIGER»</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="https://placehold.it/280x200" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="https://placehold.it/280x200" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="https://placehold.it/280x200" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="https://placehold.it/280x200" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="https://placehold.it/280x200" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="https://placehold.it/280x200" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item__header">
+            <a class="news-item__preview" href="#">
+              <img src="https://placehold.it/280x200" alt="news preview">
+            </a>
+            <h3 class="news-item__title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+          </div>
+          <div class="news-item__footer">
+            <div class="news-item__footer-content">
+              <time class="new-item__datetime" datetime="2020-12-31">
+                31.12.2020
+              </time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="call-center">
+  <div class="container">
+    <div class="call-center__title">
+      Call-center
+      <img class="call-center__icon" src="assets/images/phone.svg" alt="">
+    </div>
+    <div class="call-center__phones">
+      <a href="tel:+7052962569">+7 (705) 296 25 69</a>
+      <a href="tel:+7756030130">+7 (775) 603 01 30</a>
+    </div>
+  </div>
+</section>
+
+<!-- 
+<section class="carousel">
+  <div class="container container--carousel">
+    <button class="carousel-arrow carousel-arrow--prev"></button>
+    <button class="carousel-arrow carousel-arrow--next"></button>
+    <div class="carousel--main">
+      <div class="carousel-item">
+        <img src="https://placehold.it/1200x500" alt="Doctor">
+      </div>
+      <div class="carousel-item">
+        <img src="https://placehold.it/1200x500" alt="Doctor">
+      </div>
+      <div class="carousel-item">
+        <img src="https://placehold.it/1200x500" alt="Doctor">
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+
+
+<!-- 
+<section class="videos">
+  <div class="container container--videos">
+    <h2 class="videos-title">Интервью наших главных специалистов</h2>
+    <div class="row">
+      <div class="col-4">
+        <div class="videos-item embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_6sC---Tp7I" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="videos-item embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zdzldp7UXw8" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="videos-item embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h2CTC3DsMuA" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ -->
+
+<!-- <section class="map">
+  <div class="container container--map">
+    <h2 class="map-title">Как к нам добратся</h2>
+    <div class="map-2gis" id="map"></div>
+  </div>
+</section> -->

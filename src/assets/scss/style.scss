@@ -1,0 +1,61 @@
+@import "libs";
+@import "vars";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.page-content {
+    min-height: calc(100vh - 606px);
+}
+
+.main {
+    padding-top: 66px;
+}
+
+.container--large {
+    @media (min-width: 1200px) {
+        max-width: 1230px;
+    }
+}
+
+
+/* Blocks Layout - 'default' */
+@import "blocks/header";
+@import "blocks/dropdown";
+@import "blocks/button";
+@import "blocks/footer";
+
+
+/* Blocks Page - 'index.html' */
+@import "blocks/top";
+@import "blocks/video";
+@import "blocks/welcome";
+@import "blocks/spiral";
+@import "blocks/services";
+@import "blocks/news";
+@import "blocks/call-center";
+@import "blocks/advantages";
+@import "blocks/flip-box";
+// @import "blocks/videos";
+// @import "blocks/map";
+// @import "blocks/countdown";
+// @import "blocks/carousel";
+
+
+/* Blocks Page Rehabilitation content */
+@import "blocks/rehabilitation";
+
+
+/* Blocks Page Services content */
+@import "blocks/conditions-services.scss";
+@import "blocks/hospitalization";
+@import "blocks/residence";
+@import "blocks/requisites";
+
+
+/* Blocks Page About */
+@import "blocks/about-mission";
+@import "blocks/about-team";
+@import "blocks/about-history";

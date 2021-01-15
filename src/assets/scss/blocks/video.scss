@@ -1,0 +1,37 @@
+.video {
+    padding: 80px 0;
+    background-color: $white;
+}
+
+.video-wrapper {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+    &:hover {
+        .video-inner {
+            opacity: .5;
+        }
+        .video-title {
+            opacity: 1;
+        }
+    }
+}
+
+.video-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    transition: opacity .2s linear;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.video-inner {
+    max-width: 1200px;
+    transition: opacity .2s linear;
+}

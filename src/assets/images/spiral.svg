@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 342 352" style="enable-background:new 0 0 342 352;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:none;stroke:url(#Oval-5_1_);enable-background:new    ;}
+	.st1{opacity:0.25;fill:none;stroke:url(#Oval-3_1_);enable-background:new    ;}
+	.st2{opacity:0.25;fill:none;stroke:url(#Oval-6_1_);enable-background:new    ;}
+	.st3{fill:none;stroke:url(#Oval-Copy_1_);stroke-width:2;}
+	.st4{fill:none;stroke:url(#Oval-Copy-2_1_);stroke-width:2;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#FF6C02;stroke:#FFFFFF;stroke-width:4;}
+	.st7{fill:#FFE902;stroke:#FFFFFF;stroke-width:4;}
+	.st8{fill:#1781CC;stroke:#FFFFFF;stroke-width:4;}
+	.st9{fill:#17BDCC;stroke:#FFFFFF;stroke-width:4;}
+	.st10{fill:#17CCBD;stroke:#FFFFFF;stroke-width:4;}
+	.st11{fill:#179ECC;stroke:#FFFFFF;stroke-width:4;}
+</style>
+<title>Tablet</title>
+<desc>Created with Sketch.</desc>
+<g id="Tablet">
+	<g id="LOC-Diagram" transform="translate(-7.000000, 0.000000)">
+		
+			<linearGradient id="Oval-5_1_" gradientUnits="userSpaceOnUse" x1="172.1237" y1="181.4071" x2="172.8608" y2="180.4409" gradientTransform="matrix(201.1504 0 0 -264.4572 -34509.0117 48043.3047)">
+			<stop  offset="0" style="stop-color:#FF6C02"/>
+			<stop  offset="1" style="stop-color:#17CCBD"/>
+		</linearGradient>
+		<path id="Oval-5" class="st0" d="M177.9,5.5C145,33,124,74.3,124,120.5c0,82.6,66.9,149.5,149.5,149.5c18.2,0,35.6-3.2,51.7-9.2"
+			/>
+		
+			<linearGradient id="Oval-3_1_" gradientUnits="userSpaceOnUse" x1="171.7038" y1="182.425" x2="172.7038" y2="181.601" gradientTransform="matrix(148.7798 0 0 -104.0111 -25395.9082 19003)">
+			<stop  offset="0" style="stop-color:#FF6C02"/>
+			<stop  offset="1" style="stop-color:#FFE902"/>
+		</linearGradient>
+		<path id="Oval-3" class="st1" d="M177.7,6c-0.5,3.8-0.7,7.6-0.7,11.5c0,51.1,41.4,92.5,92.5,92.5c21.2,0,40.7-7.1,56.3-19.1"/>
+		
+			<linearGradient id="Oval-6_1_" gradientUnits="userSpaceOnUse" x1="173.5922" y1="181.6794" x2="172.5922" y2="180.8327" gradientTransform="matrix(296.3691 0 0 -199.0045 -51076.2305 36281.8164)">
+			<stop  offset="0" style="stop-color:#FFE902"/>
+			<stop  offset="1" style="stop-color:#179ECC"/>
+		</linearGradient>
+		<path id="Oval-6" class="st2" d="M29.6,260.8C59.3,279.3,94.4,290,132,290c107.1,0,194-86.9,194-194c0-1.7,0-3.3-0.1-5"/>
+		<g id="Group" transform="translate(8.000000, 6.000000)">
+			
+				<linearGradient id="Oval-Copy_1_" gradientUnits="userSpaceOnUse" x1="165.0235" y1="175.5029" x2="165.0235" y2="174.5029" gradientTransform="matrix(170 0 0 -340 -27714 59671)">
+				<stop  offset="0" style="stop-color:#FF6C02"/>
+				<stop  offset="0.266" style="stop-color:#FFE902"/>
+				<stop  offset="0.7443" style="stop-color:#17CCBD"/>
+				<stop  offset="1" style="stop-color:#17BDCC"/>
+			</linearGradient>
+			<path id="Oval-Copy" class="st3" d="M170,340c93.9,0,170-76.1,170-170S263.9,0,170,0"/>
+			
+				<linearGradient id="Oval-Copy-2_1_" gradientUnits="userSpaceOnUse" x1="166.9765" y1="175.5029" x2="166.9765" y2="174.5029" gradientTransform="matrix(-170 0 0 -340 28386.6719 59671)">
+				<stop  offset="0" style="stop-color:#FF6C02"/>
+				<stop  offset="0.2607" style="stop-color:#1781CC"/>
+				<stop  offset="0.7443" style="stop-color:#179ECC"/>
+				<stop  offset="1" style="stop-color:#17BDCC"/>
+			</linearGradient>
+			<path id="Oval-Copy-2" class="st4" d="M170.7,340c-93.9,0-170-76.1-170-170S76.8,0,170.7,0"/>
+		</g>
+		<rect id="Rectangle-4" x="1" y="110" class="st5" width="60" height="21"/>
+		<rect id="Rectangle-4_1_" x="141" y="26" class="st5" width="60" height="21"/>
+		<rect id="Rectangle-4_2_" x="297" y="110" class="st5" width="60" height="21"/>
+		<rect id="Rectangle-4_3_" x="271" y="279" class="st5" width="60" height="21"/>
+		<rect id="Rectangle-4_4_" x="8" y="279" class="st5" width="57" height="21"/>
+		<circle id="Oval-4" class="st6" cx="177.9" cy="6.5" r="8.5"/>
+		<circle id="Oval-4_1_" class="st7" cx="325.2" cy="91.5" r="8.5"/>
+		<circle id="Oval-4_2_" class="st8" cx="31.5" cy="91.5" r="8.5"/>
+		<circle id="Oval-4_3_" class="st9" cx="177.9" cy="345.4" r="8.5"/>
+		<circle id="Oval-4_4_" class="st10" cx="324.2" cy="260.6" r="8.5"/>
+		<circle id="Oval-4_5_" class="st11" cx="30.6" cy="260.6" r="8.5"/>
+	</g>
+</g>
+</svg>

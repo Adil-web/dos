@@ -1,0 +1,99 @@
+.navbar-nav .dropdown-menu {
+    @media (min-width: 1200px) {
+        top: 130%;
+    }
+}
+
+.navbar-nav  .dropdown-menu .dropdown-item {
+    color: $navbar-text;
+    font-weight: 500;
+    font-size: 1.25rem;
+
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: #f3ece4;
+    }
+}
+
+.navbar-nav .dropdown--rehabilitation .dropdown-menu.show  {
+    display: flex;
+}
+
+.navbar-nav .dropdown--rehabilitation .dropdown-menu.show .dropdown-group {
+    &:first-child {
+        margin-right: .5rem;
+    }
+}
+
+.navbar-nav .dropdown--rehabilitation .dropdown-menu.show .dropdown-item {
+    white-space: wrap;
+}
+
+.navbar-nav .contacts .contacts-menu .contacts {
+    &-phone {
+        transition: color .2s linear;
+
+        &:hover {
+            color: $green;
+
+            & > .contacts-icon > svg {
+                fill: $green;
+            }
+        }
+    }
+    &-vk {
+        transition: color .2s linear;
+
+        &:hover {
+            color: $blue;
+
+            & > .contacts-icon > svg {
+                fill: $blue;
+            }
+        }
+    }
+    &-instagram {
+        transition: color .2s linear;
+
+        &:hover {
+            color: $orange;
+
+            & > .contacts-icon > svg {
+                fill: $orange;
+            }
+        }
+    }
+    &-youtube {
+        transition: color .2s linear;
+
+        &:hover {
+            color: $red;
+
+            & > .contacts-icon > svg {
+                fill: $red;
+            }
+        }
+    }
+    &-address {
+        transition: color .2s linear;
+
+        &:hover {
+            color: $indigo;
+
+            & > .contacts-icon > svg {
+                fill: $indigo;
+            }
+        }
+    }
+}
+
+.contacts-icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+    transform: translateY(-5%);
+
+    & > svg {
+        transition: fill .2s linear;
+    }
+}
