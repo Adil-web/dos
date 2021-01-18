@@ -1,0 +1,2910 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  
+  <!-- Useful meta tags -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- <script src="https://maps.api.2gis.ru/2.0/loader.js?pkgfull"></script>
+  <script type="text/javascript">
+      var map;
+  
+      DG.then(function () {
+          map = DG.map('map', {
+              center: [51.135168, 71.427422],
+              zoom: 13
+          });
+      DG.marker([51.135168, 71.427422])
+          .addTo(map)
+          .bindLabel('Dos Medicus', {
+              static: true
+          })
+          .on('click', function(e) {
+              map.setView([e.latlng.lat, e.latlng.lng]);
+          });
+      });
+  </script> -->
+  <title>Прейскурант цен</title>
+</head>
+
+<body>
+
+  <!-- Page -->
+  <div class="page">
+    <div class="page-content">
+      <header class="header">
+        <!-- background-color:  da333c style="background-color: #dc3545; -->
+        <nav class="navbar navbar-expand-xl fixed-top navbar-dark bg-dark" style="background-color: #d8727c;">
+          <div class="container container--large">
+            <a class="navbar-brand" href="index.html">
+              <img class="navbar-brand__logo" src="../assets/images/logonew-1.png" alt="Dos Medicus">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown dropdown--rehabilitation">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Реабилитация
+                  </a>
+                  <span class="nav-line"></span>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-group">
+                      <a class="dropdown-item rounded-right" href="insult.html">Инсульт</a>
+                      <a class="dropdown-item rounded-right" href="travmy-golovy.html">Травма головы</a>
+                      <a class="dropdown-item rounded-right" href="travmy-pozvonochnika.html">Травма позвоночника</a>
+                      <a class="dropdown-item rounded-right" href="infarkt-miokarda.html">Инфаркт миокарда и <br> кардиохирургических операций</a>
+                      <a class="dropdown-item rounded-right" href="onkologiya.html">Онкологические заболевания</a>
+                    </div>
+                    <div class="dropdown-group">
+                      <a class="dropdown-item rounded-left" href="endoprotezirovaniia.html">Эндопротезирование и траватология</a>
+                      <a class="dropdown-item rounded-left" href="posle-operatcii.html">После операций</a>
+                      <a class="dropdown-item rounded-left" href="geriatriia.html">Гериатрия (уход за пожилыми)</a>
+                      <a class="dropdown-item rounded-left" href="palliativnaia-terapiia.html">Паллиативная терапия</a>
+                      <a class="dropdown-item rounded-left" href="post-kovidnyi-chek-ap.html">Пост ковидный чек-ап</a>
+                      <a class="dropdown-item rounded-left" href="post-kovidnyi-chek-ap.html">Второе мнение</a>                
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Посетители и пациенты
+                  </a>
+                  <span class="nav-line"></span>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="usloviia-i-uslugi.html">Услуги центра <br> (амбулаторные услуги, стационарные услуги)</a>
+                    <a class="dropdown-item" href="hospitalization.html">Госпитализация</a>
+                    <a class="dropdown-item" href="price.html">Прейскурант цен</a>
+                    <a class="dropdown-item" href="residence.html">Качество обслуживания<br>Проживание </a>
+                    <a class="dropdown-item" href="requisites.html">Реквизиты</a>
+                    <a class="dropdown-item" href="hotels.html">Гостиницы</a>
+                    <a class="dropdown-item" href="for-visitors.html">Посетителям</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    О нас
+                  </a>
+                  <span class="nav-line"></span>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="about-mission.html">Миссия, видение, цель</a>
+                    <a class="dropdown-item" href="about-team.html">Наша команда</a>
+                    <a class="dropdown-item" href="about-history.html">О центре (история)</a>
+                    <a class="dropdown-item" href="our-partners.html">Наши партнеры </a>
+                    <a class="dropdown-item" href="#">Вакансии </a>
+                    <a class="dropdown-item" href="#">СМИ о нас </a>
+                  </div>
+                </li>
+                <!-- <li class="nav-item dropdown contacts">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Конаткты
+                          </a>
+                          <span class="nav-line"></span>
+                          <div class="dropdown-menu contacts-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item contacts-phone" href="#">
+                              <div class="contacts-icon">
+                                <svg id="regular" enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <path
+                                    d="m13.33 18.076c4.05.964 5.475-2.5 4.761-3.793-.286-.516-2.856-1.507-2.981-1.555-1.104-.402-1.512.348-2.277 1.335-1.469-.735-2.454-1.314-3.466-2.96.057-.071.133-.155.19-.219.354-.396 1.017-1.134.565-2.037-.38-.757-.569-1.285-.708-1.672-.403-1.121-.71-1.425-2.098-1.425-1.445 0-2.566 1.899-2.566 3.534 0 3.569 4.798 7.889 8.58 8.792zm-6.014-10.826c.3 0 .452.01.528.022.162.343.326 1.059.93 2.173-.094.351-1.429 1.174-.81 2.238 1.265 2.148 2.531 2.893 4.345 3.795 1.208.546 1.594-.443 2.36-1.312.355.144 1.553.674 2.079.94-.047 1.036-1.047 1.992-3.07 1.51-3.472-.829-7.429-4.735-7.429-7.333.001-.988.694-2.033 1.067-2.033z" />
+                                  <path
+                                    d="m.083 23.085c-.131.474.224.949.723.949.18 0-.114.046 5.848-1.5 2.427 1.236 4.272 1.197 5.45 1.308 10.555 0 15.725-12.873 8.461-20.363-9.957-9.624-25.464 2.336-18.975 14.127zm19.288-18.672c.173.316 5.135 4.791 2.372 11.478-1.701 4.12-5.626 6.659-10.024 6.421-3.578-.199-4.504-1.477-5.163-1.302l-4.683 1.22 1.245-4.524c.054-.194.027-.401-.073-.575-5.983-10.324 7.546-20.939 16.326-12.718z" />
+                                </svg>
+                              </div>
+                              Контакты
+                            </a>
+                            <a class="dropdown-item contacts-vk" href="#">
+                              <div class="contacts-icon">
+                                <svg id="regular" enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <path
+                                    d="m12.145 19.5c3.472 0 2.234-2.198 2.502-2.83-.004-.472-.008-.926.008-1.202.22.062.739.325 1.811 1.367 1.655 1.67 2.078 2.665 3.415 2.665h2.461c.78 0 1.186-.323 1.389-.594.196-.262.388-.722.178-1.438-.549-1.724-3.751-4.701-3.95-5.015.03-.058.078-.135.103-.175h-.002c.632-.835 3.044-4.449 3.399-5.895.001-.002.002-.005.002-.008.192-.66.016-1.088-.166-1.33-.274-.362-.71-.545-1.299-.545h-2.461c-.824 0-1.449.415-1.765 1.172-.529 1.345-2.015 4.111-3.129 5.09-.034-1.387-.011-2.446.007-3.233.036-1.535.152-3.029-1.441-3.029h-3.868c-.998 0-1.953 1.09-.919 2.384.904 1.134.325 1.766.52 4.912-.76-.815-2.112-3.016-3.068-5.829-.268-.761-.674-1.466-1.817-1.466h-2.461c-.998 0-1.594.544-1.594 1.455 0 2.046 4.529 13.544 12.145 13.544zm-8.09-13.499c.217 0 .239 0 .4.457.979 2.883 3.175 7.149 4.779 7.149 1.205 0 1.205-1.235 1.205-1.7l-.001-3.702c-.066-1.225-.512-1.835-.805-2.205l3.508.004c.002.017-.02 4.095.01 5.083 0 1.403 1.114 2.207 2.853.447 1.835-2.071 3.104-5.167 3.155-5.293.075-.18.14-.241.376-.241h2.461.01c-.001.003-.001.006-.002.009-.225 1.05-2.446 4.396-3.189 5.435-.012.016-.023.033-.034.05-.327.534-.593 1.124.045 1.954h.001c.058.07.209.234.429.462.684.706 3.03 3.12 3.238 4.08-.138.022-.288.006-2.613.011-.495 0-.882-.74-2.359-2.23-1.328-1.292-2.19-1.82-2.975-1.82-1.524 0-1.413 1.237-1.399 2.733.005 1.622-.005 1.109.006 1.211-.089.035-.344.105-1.009.105-6.345 0-10.477-10.071-10.636-11.996.055-.005.812-.002 2.546-.003z" />
+                                </svg>
+                              </div>
+                              Vk
+                            </a>
+                            <a class="dropdown-item contacts-instagram" href="#">
+                              <div class="contacts-icon">
+                                <svg id="regular" enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <path
+                                    d="m4.75 24h14.5c2.619 0 4.75-2.131 4.75-4.75v-14.5c0-2.619-2.131-4.75-4.75-4.75h-14.5c-2.619 0-4.75 2.131-4.75 4.75v14.5c0 2.619 2.131 4.75 4.75 4.75zm-3.25-19.25c0-1.792 1.458-3.25 3.25-3.25h14.5c1.792 0 3.25 1.458 3.25 3.25v14.5c0 1.792-1.458 3.25-3.25 3.25h-14.5c-1.792 0-3.25-1.458-3.25-3.25z" />
+                                  <path
+                                    d="m12 18.13c3.38 0 6.13-2.75 6.13-6.13s-2.75-6.13-6.13-6.13-6.13 2.75-6.13 6.13 2.75 6.13 6.13 6.13zm0-10.76c2.553 0 4.63 2.077 4.63 4.63s-2.077 4.63-4.63 4.63-4.63-2.077-4.63-4.63 2.077-4.63 4.63-4.63z" />
+                                  <path
+                                    d="m18.358 7.362c.986 0 1.729-.74 1.729-1.721 0-1.023-.782-1.721-1.728-1.721-.986 0-1.729.74-1.729 1.721 0 1.021.778 1.721 1.728 1.721zm.177-1.886c.316.279-.405.618-.405.166 0-.27.367-.2.405-.166z" />
+                                </svg>
+                              </div>
+                              Instagram
+                            </a>
+                            <a class="dropdown-item contacts-youtube" href="#">
+                              <div class="contacts-icon">
+                                <svg id="regular" enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <path
+                                    d="m9.939 7.856c-.497-.297-1.134.062-1.134.644v7c0 .585.638.939 1.134.645l5.869-3.495c.488-.291.487-.997.001-1.289zm.366 6.325v-4.36l3.655 2.183z" />
+                                  <path
+                                    d="m19.904 3.271c-4.653-.691-11.153-.691-15.808 0-1.862.276-3.329 1.738-3.649 3.636-.596 3.523-.596 6.664 0 10.186.32 1.899 1.787 3.36 3.649 3.636 2.332.346 5.124.519 7.915.519 2.786 0 5.571-.172 7.894-.518 1.86-.276 3.326-1.737 3.648-3.636.596-3.523.596-6.665 0-10.188-.32-1.897-1.787-3.359-3.649-3.635zm2.17 13.573c-.213 1.256-1.173 2.222-2.39 2.402-4.518.671-10.838.671-15.368-.001-1.218-.181-2.179-1.146-2.391-2.402-.574-3.394-.574-6.291 0-9.687.213-1.256 1.173-2.22 2.392-2.402 2.262-.335 4.973-.503 7.682-.503 2.711 0 5.422.168 7.684.503 1.218.181 2.179 1.146 2.391 2.402.574 3.396.574 6.293 0 9.688z" />
+                                </svg>
+                              </div>
+                              Youtube канал
+                            </a>
+                            <a class="dropdown-item contacts-address" href="#">
+                              <div class="contacts-icon">
+                                <?xml version="1.0" encoding="iso-8859-1"?>
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink" height="20" width="20" x="0px" y="0px"
+                                  viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                  <g>
+                                    <g>
+                                      <path d="M256,0C156.748,0,76,80.748,76,180c0,33.534,9.289,66.26,26.869,94.652l142.885,230.257
+                    c2.737,4.411,7.559,7.091,12.745,7.091c0.04,0,0.079,0,0.119,0c5.231-0.041,10.063-2.804,12.75-7.292L410.611,272.22
+                    C427.221,244.428,436,212.539,436,180C436,80.748,355.252,0,256,0z M384.866,256.818L258.272,468.186l-129.905-209.34
+                    C113.734,235.214,105.8,207.95,105.8,180c0-82.71,67.49-150.2,150.2-150.2S406.1,97.29,406.1,180
+                    C406.1,207.121,398.689,233.688,384.866,256.818z" />
+                                    </g>
+                                  </g>
+                                  <g>
+                                    <g>
+                                      <path d="M256,90c-49.626,0-90,40.374-90,90c0,49.309,39.717,90,90,90c50.903,0,90-41.233,90-90C346,130.374,305.626,90,256,90z
+                    M256,240.2c-33.257,0-60.2-27.033-60.2-60.2c0-33.084,27.116-60.2,60.2-60.2s60.1,27.116,60.1,60.2
+                    C316.1,212.683,289.784,240.2,256,240.2z" />
+                                    </g>
+                                  </g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                </svg>
+      
+                              </div>
+                              Адресс и схема проезда
+                            </a>
+                          </div>
+                        </li>
+                        <li class="nav-item nav-item--call">
+                          <a class="nav-link nav-link--call" href="#">Заказать звонок</a>
+                          <span class="nav-line"></span>
+                          <img class="phone-call" src="assets/images/phone-call.svg" alt="">
+                        </li> -->
+              </ul>
+              <div class="d-flex mt-3 ml-4">
+                <small class="text-white">
+                  <svg style="width:18px;height:18x" viewBox="0 0 24 50">
+                  <path fill="currentColor" d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z" />
+                  </svg>
+              </small>
+                <p class="text-white" style="font-size: .8rem;">+7 705 296 25 69</p>
+              </div>
+              <form class="search-form d-flex">
+                <input class="search-form__input form-control form-control-sm form-control--shadow" type="search" placeholder="Поиск"
+                  aria-label="Search">
+                <button class="search-form__button" type="submit">
+                  <img src="assets/images/loupe.svg" alt="Поиск">
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="rehabilitation-price">
+            <div class="container">
+                <h1 class="text-center">Прейскурант цен</h1>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation" aria-expanded="false" aria-controls="rehabilitation">
+                    Стоимость реабилитации
+                </a><br>
+                <div class="card-deck mb-3 collapse text-center" id="rehabilitation">
+                    <p class="rehabilitation-price__description" style="font-size: .9rem; text-align: start;">
+                        В стоимость входит проживание, 5-ти разовое питание, медицинские препараты, занятия со специалистами, круглосуточный медицинский уход, и все расходные материалы.  
+                    </p>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header bg-dark">
+                            <h4 class="my-0 font-weight-normal text-white">1 местное</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">75 000тг <small class="text-muted">/ в сутки</small></h2>
+                            <ul class="mt-4 mb-4 text-muted" style="font-size: .9rem;">
+                                <li>5-ти разовое питание;</li>
+                                <li>медицинские препараты;</li>
+                                <li>занятия со специалистами;</li>
+                                <li>круглосуточный уход;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header bg-dark">
+                            <h4 class="my-0 font-weight-normal text-white">2 местное</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">60 000тг <small class="text-muted">/ в сутки</small></h2>
+                            <ul class="mt-4 mb-4 text-muted" style="font-size: .9rem;">
+                                <li>5-ти разовое питание;</li>
+                                <li>медицинские препараты;</li>
+                                <li>занятия со специалистами;</li>
+                                <li>круглосуточный  уход;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header bg-dark">
+                            <h4 class="my-0 font-weight-normal text-white">3 местное</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">50 000тг <small class="text-muted">/ в сутки</small></h2>
+                            <ul class="mt-4 mb-4 text-muted" style="font-size: .9rem;">
+                                <li>5-ти разовое питание;</li>
+                                <li>медицинские препараты;</li>
+                                <li>занятия со специалистами;</li>
+                                <li>круглосуточный уход;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation2" aria-expanded="false" aria-controls="rehabilitation2">
+                    Стоимость круглосуточного стационара терапевтического профиля
+                </a><br>
+                <div class="card-deck mb-3 collapse text-center" id="rehabilitation2">
+                    <p class="rehabilitation-price__description" style="font-size: .9rem;">
+                        В стоимость входит проживание, 5-ти разовое питание, медицинские препараты, занятия со специалистами, круглосуточный медицинский уход, и все расходные материалы <br>
+                        Лабораторные анализы в стоимость не входят. 
+                    </p>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header bg-dark">
+                            <h4 class="my-0 font-weight-normal text-white">1 местное</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">50 000тг <small class="text-muted">/ в сутки</small></h2>
+                            <ul class="mt-4 mb-4 text-muted" style="font-size: .9rem;">
+                                <li>5-ти разовое питание;</li>
+                                <li>медицинские препараты;</li>
+                                <li>занятия со специалистами;</li>
+                                <li>круглосуточный уход;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header bg-dark">
+                            <h4 class="my-0 font-weight-normal text-white">2 местное</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">40 000тг <small class="text-muted">/ в сутки</small></h2>
+                            <ul class="mt-4 mb-4 text-muted" style="font-size: .9rem;">
+                                <li>5-ти разовое питание;</li>
+                                <li>медицинские препараты;</li>
+                                <li>занятия со специалистами;</li>
+                                <li>круглосуточный  уход;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header bg-dark">
+                            <h4 class="my-0 font-weight-normal text-white">3 местное</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">30 000тг <small class="text-muted">/ в сутки</small></h2>
+                            <ul class="mt-4 mb-4 text-muted" style="font-size: .9rem;">
+                                <li>5-ти разовое питание;</li>
+                                <li>медицинские препараты;</li>
+                                <li>занятия со специалистами;</li>
+                                <li>круглосуточный уход;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation3" aria-expanded="false" aria-controls="rehabilitation3">
+                    Прайс-лист CHECK-UP
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation3">
+                    <table class="table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                          <tr>
+                            <th scope="col">№</th>
+                            <th scope="col">Наименование исследования</th>
+                            <th scope="col">Цена по себе стоимости</th>
+                            <th scope="col">Check-up Max для женщин</th>
+                            <th scope="col">Check-up Normal для женщин</th>
+                            <th scope="col">Check-up Max для мужчин</th>
+                            <th scope="col">Check-up Normal для мужчин</th>
+                            <th scope="col">Check-up Max для детей</th>
+                            <th scope="col">Check-up Normal для детей</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Прием (осмотр, консультация) пульмонолога первичный</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Прием (осмотр, консультация) терапевта первичный</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Прием (осмотр, консультация) эндокринолога первичный</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Прием (осмотр, консультация) кардиолога первичный</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Прием (осмотр, консультация) маммолога первичный</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>Прием (осмотр, консультация) гинеколога первичный</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>Видеокольпоскопия с фотопечатью</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>Исследование вагинального мазка на степень чистоты</td>
+                            <td>1180</td>
+                            <td>1180</td>
+                            <td>1180</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">9</th>
+                            <td>Цитологическое исследование мазка из шейки матки ПАП-тест на аппарате жидкостной цитологии</td>
+                            <td>5580</td>
+                            <td>5580</td>
+                            <td>5580</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">10</th>
+                            <td>Антиген СА 125 (яичники) онкомаркеры</td>
+                            <td>2500</td>
+                            <td>2500</td>
+                            <td>2500</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">11</th>
+                            <td>Антиген CA 15-3 (молочная железа) онкомаркеры</td>
+                            <td>2780</td>
+                            <td>2780</td>
+                            <td>2780</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">12</th>
+                            <td>ПЦР на урогенитальную инфекцию для женщин (Хламидиоз (Chlamydia trachomatis), Микоплазмоз (Mycoplasma genitalium), Уреаплазмоз (Ureaplasma species), Гарднереллез (Gardnerella vaginalis), ихомониаз (Trichomonas vaginalis), Кандидоз (Candida albicans), Цитомегаловирус (CMV), Герпес I, II типы (HSV I,II), Гонорея (Neisseria gonorrhoeae))</td>
+                            <td>15400</td>
+                            <td>15400</td>
+                            <td>15400</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                          <tr>
+                            <th scope="row">13</th>
+                            <td>Профиль "Паразитозы" (Аскаридоз IgG, Эхинококкоз IgG, Лямблиоз IgМ, Лямблиоз IgG, Лямблиоз IgA, Описторхоз IgМ, Описторхоз IgG, Токсокароз IgG, Трихинеллез IgG )</td>
+                            <td>11620</td>
+                            <td>11620</td>
+                            <td></td>
+                            <td>11620</td>
+                            <td></td>
+                            <td>11620</td>
+                            <td></td>
+                        </tr>
+                          <tr>
+                            <th scope="row">14</th>
+                            <td>Прием (осмотр, консультация) уролога первичный</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">15</th>
+                            <td>ПСА (простатоспецифический антиген) общий (чувствит.)</td>
+                            <td>2580</td>
+                            <td></td>
+                            <td></td>
+                            <td>2580</td>
+                            <td>2580</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">16</th>
+                            <td>ПСА (простатоспецифический антиген) свободный   </td>
+                            <td>2580</td>
+                            <td></td>
+                            <td></td>
+                            <td>2580</td>
+                            <td>2580</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">17</th>
+                            <td>ПЦР на урогенитальную инфекцию для мужчин, материал для забора соскоб или моча(Хламидиоз (Chlamydia trachomatis), Микоплазмоз (Mycoplasma genitalium), Уреаплазмоз (Ureaplasma species), Гарднереллез (Gardnerella vaginalis), ихомониаз (Trichomonas vaginalis), Кандидоз (Candida albicans), Цитомегаловирус (CMV), Герпес I, II типы (HSV I,II), Гонорея (Neisseria gonorrhoeae))</td>
+                            <td>15400</td>
+                            <td></td>
+                            <td></td>
+                            <td>15400</td>
+                            <td>15400</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">18</th>
+                            <td>Антиген CA 19-9 (желудок, поджелудочная железа)</td>
+                            <td>2780</td>
+                            <td></td>
+                            <td></td>
+                            <td>2780</td>
+                            <td>2780</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">19</th>
+                            <td>Антиген CA 72-4 (желудок, яичники)</td>
+                            <td>4180</td>
+                            <td></td>
+                            <td></td>
+                            <td>4180</td>
+                            <td>4180</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">20</th>
+                            <td>Прием (осмотр, консультация) невролога первичный</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>6000</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">21</th>
+                            <td>ЭКГ</td>
+                            <td>3000</td>
+                            <td>3000</td>
+                            <td></td>
+                            <td>3000</td>
+                            <td>3000</td>
+                            <td>3000</td>
+                            <td>3000</td>
+                        </tr>
+                          <tr>
+                            <th scope="row">22</th>
+                            <td>ЭХО-КГ</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                        </tr>
+                          <tr>
+                            <th scope="row">23</th>
+                            <td>Холтер (суточный мониторинг ЭКГ)</td>
+                            <td>7000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">24</th>
+                            <td>СМАД (суточный мониторинг АД)</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">25</th>
+                            <td>Холтер+СМАД (суточный мониторинг ЭКГ+АД)</td>
+                            <td>8500</td>
+                            <td>8500</td>
+                            <td></td>
+                            <td>8500</td>
+                            <td>8500</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">26</th>
+                            <td>УЗИ органов брюшной полости взрослого (печень, ж/пузырь,поджелуд/железа, почки, надпочечники, селезенка + молочные железы у женщин и предстательная железа у мужчин)</td>
+                            <td>25000</td>
+                            <td>25000</td>
+                            <td>25000</td>
+                            <td>25000</td>
+                            <td>25000</td>
+                            <td>25000</td>
+                            <td>25000</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">27</th>
+                            <td>Забор крови из вены</td>
+                            <td>400</td>
+                            <td>400</td>
+                            <td>400</td>
+                            <td>400</td>
+                            <td>400</td>
+                            <td>400</td>
+                            <td>400</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">28</th>
+                            <td>Клинический анализ крови</td>
+                            <td>800</td>
+                            <td>800</td>
+                            <td>800</td>
+                            <td>800</td>
+                            <td>800</td>
+                            <td>800</td>
+                            <td>800</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">29</th>
+                            <td>Общий анализ мочи</td>
+                            <td>700</td>
+                            <td>700</td>
+                            <td>700</td>
+                            <td>700</td>
+                            <td>700</td>
+                            <td>700</td>
+                            <td>700</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">30</th>
+                            <td>Тиреотропный гормон (ТТГ)</td>
+                            <td>1800</td>
+                            <td>1800</td>
+                            <td>1800</td>
+                            <td>1800</td>
+                            <td>1800</td>
+                            <td>1800</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">31</th>
+                            <td>Тироксин свободный (Т4 свободный)</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">32</th>
+                            <td>Липидный комплекс (ЛПВП, ЛПНП, холестерин, триглицериды). Липидный профиль: скрининг</td>
+                            <td>3060</td>
+                            <td>3060</td>
+                            <td>3060</td>
+                            <td>3060</td>
+                            <td>3060</td>
+                            <td>3060</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">33</th>
+                            <td>Креатинин</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td></td>
+                            <td>980</td>
+                            <td></td>
+                            <td>980</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">34</th>
+                            <td>Мочевина</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td></td>
+                            <td>980</td>
+                            <td></td>
+                            <td>980</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">35</th>
+                            <td>Мочевая кислота</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">36</th>
+                            <td>Общий белок</td>
+                            <td>880</td>
+                            <td>880</td>
+                            <td></td>
+                            <td>880</td>
+                            <td></td>
+                            <td>880</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">37</th>
+                            <td>Альбумин</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">38</th>
+                            <td>Определение антител G к коронавирусу SARS-CoV-2 методом иммунохемилюминисцентного анализа (ИХЛ) качественно</td>
+                            <td>5400</td>
+                            <td>5400</td>
+                            <td></td>
+                            <td>5400</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                          <tr>
+                            <th scope="row">39</th>
+                            <td>АЛТ (аланинаминотрансфераза)</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                        </tr>
+                          <tr>
+                            <th scope="row">40</th>
+                            <td>АСТ (аспартатаминотрансфераза)</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                            <td>840</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">41</th>
+                            <td>Глюкоза</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">42</th>
+                            <td>Инсулин</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">43</th>
+                            <td>С-пептид</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td>2880</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">44</th>
+                            <td>Гликозилированный гемоглобин (HbA1C) (кровь с ЭДТА)</td>
+                            <td>2180</td>
+                            <td>2180</td>
+                            <td>2180</td>
+                            <td>2180</td>
+                            <td>2180</td>
+                            <td>2180</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">45</th>
+                            <td>Пролактин</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td>2000</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">46</th>
+                            <td>Кортизол</td>
+                            <td>2080</td>
+                            <td>2080</td>
+                            <td>2080</td>
+                            <td>2080</td>
+                            <td>2080</td>
+                            <td>2080</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">47</th>
+                            <td>Витамин 25-ОН витамин D (25-гидроксикальциферол)</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                            <td>5000</td>
+                        </tr>
+                          <tr>
+                            <th scope="row">48</th>
+                            <td>ЭХО-КГ</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td></td>
+                        </tr>
+                          <tr>
+                            <th scope="row">49</th>
+                            <td>Коагуллограмма</td>
+                            <td>2800</td>
+                            <td>2800</td>
+                            <td></td>
+                            <td>2800</td>
+                            <td></td>
+                            <td>2800</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">50</th>
+                            <td>Определение Д- димеров</td>
+                            <td>4600</td>
+                            <td>4600</td>
+                            <td></td>
+                            <td>4600</td>
+                            <td></td>
+                            <td>4600</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">51</th>
+                            <td>С-реактивный белок</td>
+                            <td>1280</td>
+                            <td>1280</td>
+                            <td></td>
+                            <td>1280</td>
+                            <td></td>
+                            <td>1280</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">52</th>
+                            <td>АСЛО</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                            <td></td>
+                            <td>1680</td>
+                            <td></td>
+                            <td>1680</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">53</th>
+                            <td>Ревмофактор</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                            <td></td>
+                            <td>1680</td>
+                            <td></td>
+                            <td>1680</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">54</th>
+                            <td>Ферритин</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                            <td>1680</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">55</th>
+                            <td>Сывороточное железо</td>
+                            <td>3860</td>
+                            <td>3860</td>
+                            <td>3860</td>
+                            <td>3860</td>
+                            <td>3860</td>
+                            <td>3860</td>
+                            <td>3860</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">56</th>
+                            <td>HBsAg (Поверхностный антиген вируса гепатита В)</td>
+                            <td>2700</td>
+                            <td>2700</td>
+                            <td>2700</td>
+                            <td>2700</td>
+                            <td>2700</td>
+                            <td>2700</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">57</th>
+                            <td>Вирус гепатита С (качественный, 100 МЕ/мл)</td>
+                            <td>3600</td>
+                            <td>3600</td>
+                            <td>3600</td>
+                            <td></td>
+                            <td></td>
+                            <td>3600</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">58</th>
+                            <td>Билирубин общий</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                            <td>980</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">59</th>
+                            <td>Билирубин прямой/непрямой</td>
+                            <td>880</td>
+                            <td>880</td>
+                            <td>880</td>
+                            <td>880</td>
+                            <td>880</td>
+                            <td>880</td>
+                            <td>880</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">60</th>
+                            <td>Оказание стационарной помощи в индивидуальной палате с питанием</td>
+                            <td>18000</td>
+                            <td></td>
+                            <td>18000</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">61</th>
+                            <td>Прием (консультация) врача-специалиста по результатам анализов</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">62</th>
+                            <td>Прием педиатра</td>
+                            <td>6000</td>
+                            <td>880</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>6000</td>
+                            <td>6000</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td><strong>ИТОГО</strong></td>
+                            <td></td>
+                            <td><strong>180000</strong></td>
+                            <td><strong>145000</strong></td>
+                            <td><strong>180000</strong></td>
+                            <td><strong>145000</strong></td>
+                            <td><strong>125000</strong></td>
+                            <td><strong>60000</strong></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation4" aria-expanded="false" aria-controls="rehabilitation4">
+                    Прайс-лист по поликлинике
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation4">
+                    <p class="text-center"><strong>Прием к врачам:</strong></p>
+                    <table class="table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                          <tr>
+                            <th scope="col">Врач</th>
+                            <th scope="col">Прием</th>
+                            <th scope="col">Цена</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Кардиолог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Ревматолог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Психолог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Гинеколог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Уролог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Эндокринолог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Терапевт</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Логопед</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Неврапотолог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Неврапотолог</td>
+                            <td>30 минут</td>
+                            <td>5000тг</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-center"><strong>Озонотерапия:</strong></p>
+                    <table class="table table-sm table-hover" style="font-size: .8rem;">
+                        <tbody>
+                          <tr>
+                            <td>Озонотерапия внутривенно</td>
+                            <td>8000тг</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation5" aria-expanded="false" aria-controls="rehabilitation5">
+                    Ультразвуковая диагностика
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation5">
+                    <table class="table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                            <tr>
+                              <th scope="col">Услуга:</th>
+                              <th scope="col">Цена:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Трансабдоминальное УЗИ предстательной железы и мочевого пузыря с определением остаточной мочи</td>
+                            <td>4200тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗДГ артерий нижних конечностей</td>
+                            <td>4500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗДГ вен нижних конечностей</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗДГ сосудов яичка</td>
+                            <td>4000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ женских половых органов при гинекологических заболеваниях трансвагинально с применением цветового доплеровского картирования (доплерография) </td>
+                            <td>4000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ предстательной железы трансректально с применением цветового доплеровского картирования ( доплерография)</td>
+                            <td>4000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ акушерское в 1 триместре беременности</td>
+                            <td>5500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ акушерское во 2 - 3 триместре беременности</td>
+                            <td>5000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ брюшной полости, малого таза (наличие жидкости)</td>
+                            <td>3000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ вилочковой железы</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ гепатобилиопанкреатической области (печень, желчный пузырь, поджелудочная железа, селезенка)</td>
+                            <td>4500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ гинекологическое (трансабдоминальное и трансвагинальное в комплексе)</td>
+                            <td>6000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ гинекологическое (трансабдоминальное)</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ гинекологическое (трансвагинальное)</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ голеностопного сустава</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ желудка трансабдоминальное</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ желчного пузыря и протоков</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ желчного пузыря с определением функций</td>
+                            <td>2200тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ забрюшинного пространства</td>
+                            <td>2500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ забрюшинных лимфатических узлов</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ кисти</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ коленного сустава</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ локтевого сустава</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ лучезапястного сустава</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ молочной железы с применением цветового доплеровского картирования</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ молочных желёз</td>
+                            <td>4000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ молочных желез и лимфоузлов</td>
+                            <td>4500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ мочевого пузыря с определением остаточной мочи</td>
+                            <td>2500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ мягких тканей</td>
+                            <td>2500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ надпочечников</td>
+                            <td>2500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ обследование органов брюшной полости: печень, желчный пузырь, поджелудочная железа, селезёнка с применением цветового доплеровского картирования (доплерография)</td>
+                            <td>4500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ органов мочеполовой системы комплексное у мужчин (почки, надпочечники, мочевой пузырь с определением остаточной мочи, предстательная железа, яички)</td>
+                            <td>7000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ органов мошонки</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ печени</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ печени и желчного пузыря</td>
+                            <td>2500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ плевры и плевральной полости</td>
+                            <td>3000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ плечевого сустава</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ поверхностных лимфатических узлов (одна анатомическая зона)</td>
+                            <td>3000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ поджелудочной железы</td>
+                            <td>2200тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ почек</td>
+                            <td>2500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ почек и надпочечников</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ почек, мочевого пузыря с определением остаточной мочи</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ ППМ (почки, простата, мочевой пузырь)</td>
+                            <td>5500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ предстательной железы (абдоминально)</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ селезенки</td>
+                            <td>1500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ слюнных желез</td>
+                            <td>2500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ тазобедренных суставов</td>
+                            <td>3000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ трансректальное предстательной железы</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ трансуретральное предстательной железы и мочевого пузыря</td>
+                            <td>4000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ щитовидной железы с применением цветового доплеровского картирования</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ щитовидной железы</td>
+                            <td>3000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ щитовидной железы и лимфоузлов</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ экстракраниальных артерий с цветовым доплеровским картированием</td>
+                            <td>4000тг</td>
+                          </tr>
+                          <tr>
+                            <td>УЗИ яичников: фолликулометрия</td>
+                            <td>3000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Ультразвуковая диагностика комплексная (печень, желчный пузырь, поджелудочная железа, селезенка, почек)</td>
+                            <td>6000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Ультразвуковое исследование беременных и биофизический профиль</td>
+                            <td>4500тг</td>
+                          </tr>
+                          <tr>
+                            <td>Ультразвуковое исследование одного сустава конечностей</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>Фибросканирование печени</td>
+                            <td>18000тг</td>
+                          </tr>
+                          <tr>
+                            <td>ЭХО кардиография</td>
+                            <td>6000тг</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation6" aria-expanded="false" aria-controls="rehabilitation6">
+                    Функциональная диагностика
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation6">
+                    <table class="table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                            <tr>
+                              <th scope="col">Услуга:</th>
+                              <th scope="col">Цена:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>ЭКГ (без расшифровки)</td>
+                            <td>800тг</td>
+                          </tr>
+                          <tr>
+                            <td>ЭКГ (c расшифровкой)</td>
+                            <td>1500тг</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <strong>Моча:</strong>
+                    <table class="table table-sm table-hover" style="font-size: .8rem;">
+                        <tbody>
+                          <tr>
+                            <td>Анализ мочи по Нечипоренко</td>
+                            <td>780тг (1 день)</td>
+                          </tr>
+                          <tr>
+                            <td>Общий анализ мочи</td>
+                            <td>700тг (1 день)</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation7" aria-expanded="false" aria-controls="rehabilitation7">
+                    Микробиология (посевы)
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation7">
+                    <table class="col-8 table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                            <tr>
+                              <th scope="col">Услуга:</th>
+                              <th scope="col">Цена:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Бак. посев желчи на микрофлору с определением чувствительности к антибиотикам</td>
+                            <td>3860тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бак. посев кала на дисбактериоз с определением чувствительности к антибиотикам</td>
+                            <td>7100тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бак. посев кала на патогенную микрофлору с определением чувствительности к антибиотикам</td>
+                            <td>5720тг</td>
+                          </tr>
+                          <tr>
+                            <td>Бак. посев крови на микрофлору с определением чувствительности к антибиотикам (стерильность крови)</td>
+                            <td>2900тг</td>
+                          </tr>
+                          <tr>
+                              <td>Бак. посев мокроты на микрофлору с определением чувствительности к антибиотикам</td>
+                              <td>5940тг</td>
+                            </tr>
+                            <tr>
+                                <td>Бак. посев мочи, сока простаты, спермы на микрофлору с определением чувствительности к антибиотикам</td>
+                                <td>3080тг (5-7д)</td>
+                            </tr>
+                            <tr>
+                              <td>Бак. посев на выявление Ureaplasma spp./M.hominis с определением чувствительности к антибиотикам</td>
+                              <td>4060тг (5-7д)</td>
+                            </tr>
+                          <tr>
+                            <td>Бак. посев на грибковую микрофлору с определением чувствительности к противогрибковым препаратам</td>
+                            <td>3300тг (5-6д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бак. посев на золотистый стафилококк (зев/носа) без определения чувствительности к антибиотикам</td>
+                            <td>1100тг (5-6д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бак. посев на золотистый стафилококк с определением чувствительности к антибиотикам</td>
+                            <td>3080тг (5-6д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бак. посев на микрофлору с определением чувствительности к антибиотикам</td>
+                            <td>5720тг (5-6д)</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation8" aria-expanded="false" aria-controls="rehabilitation8">
+                    Клиника
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation8">
+                    <table class="col-7 table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                            <tr>
+                              <th scope="col">Услуга:</th>
+                              <th scope="col">Цена:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Исследование кала на простейшие и гельминты ручным методом</td>
+                            <td>1000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Исследование кала(копрограмма) общеклиническое ручным методом</td>
+                            <td>1000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Мазок на степень чистоты</td>
+                            <td>1180тг (1д)</td>
+                          </tr>
+                          <tr>
+                            <td>Микроскопическое исследование мазка</td>
+                            <td>1200тг (1д)</td>
+                          </tr>
+                          <tr>
+                            <td>Микроскопическое исследование отделяемого из уретры на гонококковую инфекцию</td>
+                            <td>1000тг (1-2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Обнаружение скрытой крови в кале качественное ручным методом</td>
+                            <td>1000тг </td>
+                          </tr>
+                          <tr>
+                            <td>Определение антиспермальных антител класса IgA в эякуляте MAR-тест</td>
+                            <td>7000тг (1д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение антиспермальных антител класса IgG в эякуляте MAR-тест</td>
+                            <td>7000тг (1д)</td>
+                          </tr>
+                          <tr>
+                            <td>Спермограмма</td>
+                            <td>3500тг</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation9" aria-expanded="false" aria-controls="rehabilitation9">
+                    Инфекции ИФА
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation9">
+                    <table class="col-8 table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                            <tr>
+                              <th scope="col">Услуга:</th>
+                              <th scope="col">Цена:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>ANCA скрининг (антигены PR3, MPO)</td>
+                            <td>3980тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Mycoplasma pneumoniae IgA</td>
+                            <td>1400тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Mycoplasma pneumoniae IgM</td>
+                            <td>1400тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Аскаридоз IgG</td>
+                            <td>1780тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Аспергиллез IgG</td>
+                            <td>2180тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бруцеллез IgA</td>
+                            <td>1400тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бруцеллез IgG</td>
+                            <td>1480тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Бруцеллез IgM</td>
+                            <td>1400тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Вирус герпеса IgG</td>
+                            <td>1780тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Вирус герпеса IgМ</td>
+                            <td>1780тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Количественное определение HBsAg вируса гепатита В в сыворотке крови ИФА-методом</td>
+                            <td>2000тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Корь IgG</td>
+                            <td>2680тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Корь IgM</td>
+                            <td>2680тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Листериоз IgG</td>
+                            <td>1480тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Лямблиоз IgA</td>
+                            <td>1480тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Лямблиоз IgG</td>
+                            <td>1480тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Лямблиоз IgM</td>
+                            <td>1480тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Микоплазмоз IgA</td>
+                            <td>1600тг (7д)</td>
+                          </tr>
+                          <tr>
+                            <td>Микоплазмоз IgG</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Микоплазмоз IgM</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Описторхоз IgG</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Описторхоз IgM</td>
+                            <td>1400тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение HBeAg вируса гепатита B в сыворотке крови ИФА-методом</td>
+                            <td>2000тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение Ig G к возбудителям иерсиниозов (Y.enterocolitica,Y.pseudotuberculosis)</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Определение Ig G к нематодам рода Анизакида (Anisakis)</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Определение Ig G к Цистицеркам (Taenia solium)</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Определение Ig M к HBcAg вируса гепатита B в сыворотке крови ИФА-методом</td>
+                            <td>2680тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение Ig А к возбудителям иерсиниозов (Y.enterocolitica,Y.pseudotuberculosis</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Определение Ig М к возбудителям иерсиниозов (Y.enterocolitica,Y.pseudotuberculosis)</td>
+                            <td>2000тг</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgA к Helicobacter pylori (HP) в сыворотке крови ИФА-методом</td>
+                            <td>1480тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgG к Helicobacter pylori (HP) в сыворотке крови ИФА-методом</td>
+                            <td>1480тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgG к вирусу эпидемического паротита</td>
+                            <td>2600тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgG к капсидным антигенам вируса Эпштейна-Барра (ВПГ-IV) в сыворотке крови ИФА-методом</td>
+                            <td>1800тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgG к раннему антигену вируса Эпштейна-Барра (ВПГ-IV) в сыворотке крови ИФА-методом</td>
+                            <td>1800тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgG к ядерному антигену вируса Эпштейна-Барра (ВПГ-IV) в сыворотке крови ИФА-методом</td>
+                            <td>1880тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgM к капсидным антигенам вируса Эпштейна-Барра (ВПГ-IV) в сыворотке крови ИФА-методом</td>
+                            <td>1880тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение IgМ к вирусу эпидемического паротита</td>
+                            <td>2600тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение антигена Helicobacter pylori</td>
+                            <td>5000тг (3д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение антигена Лямблий в кале</td>
+                            <td>1580тг</td>
+                          </tr>
+                          <tr>
+                            <td>Определение антител к HBeAg вируса гепатита B в сыворотке крови ИФА-методом</td>
+                            <td>2680тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение антител классов IgG/IgM, к коронавирусу SARS-CoV-2 (COVID-19) экспресс-метод</td>
+                            <td>4960тг </td>
+                          </tr>
+                          <tr>
+                            <td>Определение индекса авидности IgG к капсидным антигенам вируса Эпштейн-Барра методом ИФА</td>
+                            <td>3000тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение суммарных антител к HBcAg вируса гепатита B в сыворотке крови ИФА-методом</td>
+                            <td>2000тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение суммарных антител к HBsAg вируса гепатита B в сыворотке крови ИФА-методом</td>
+                            <td>2680тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение суммарных антител к Helicobacter pylori (HP) в сыворотке крови ИФА-методом</td>
+                            <td>3000тг (3-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Определение суммарных антител к кардиолипину в сыворотке крови ИФА-методом (IgA, IgG, IgM)</td>
+                            <td>3500тг</td>
+                          </tr>
+                          <tr>
+                            <td>Токсокароз IgG</td>
+                            <td>1480тг (4-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Трихинеллез IgG</td>
+                            <td>1480тг (4-5д)</td>
+                          </tr>
+                          <tr>
+                            <td>Трихинеллез IgM</td>
+                            <td>1400тг</td>
+                          </tr>
+                          <tr>
+                            <td>Трихомониаз IgG</td>
+                            <td>14820тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Трихомониаз IgM</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Уреаплазмоз IgA</td>
+                            <td>1600тг (7д)</td>
+                          </tr>
+                          <tr>
+                            <td>Уреаплазмоз IgG</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Уреаплазмоз IgM</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Хламидиоз IgA</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Хламидиоз IgG</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Хламидиоз IgM</td>
+                            <td>1400тг (2д)</td>
+                          </tr>
+                          <tr>
+                            <td>Эхинококкоз IgG</td>
+                            <td>1480тг (2д)</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation10" aria-expanded="false" aria-controls="rehabilitation10">
+                    Хроматография
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation10">
+                    <table class="table table-sm table-hover" style="font-size: .8rem;">
+                        <table class="table table-sm table-hover" style="font-size: .8rem;">
+                            <thead>
+                                <tr>
+                                  <th scope="col">Услуга:</th>
+                                  <th scope="col">Цена:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>"Вредные привычки" (комплексное, профильное исследование) - наркотические, психотропные и сильнодействующие вещества (опиаты и их синтетические аналоги: героин, морфин, метадон, трамадон; амфетамин и производные амфетамина (метамфетамин, экстази); наркотические средства из конопли (марихуана, гашиш);барбитураты (фенобарбитал, циклобарбитал, барбамил и т.д) бензодиазепины (реланиум, феназепам, седуксен и т.д);кокаин; никотин и алкоголь, высокотехнологическое выявление в моче</td>
+                                <td>23760тг</td>
+                              </tr>
+                              <tr>
+                                <td>L-карнитин общий - в крови</td>
+                                <td>12760тг (6-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>L-карнитин свободный - в крови</td>
+                                <td>11000тг (6-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Алкоголь, ацетон и другие летучие токсические вещества в крови</td>
+                                <td>9420тг</td>
+                              </tr>
+                              <tr>
+                                <td>Алкоголь,ацетон и другие летучие токсические вещества в моче</td>
+                                <td>9420тг</td>
+                              </tr>
+                              <tr>
+                                <td>Алюминий (Al) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Алюминий (Al) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Алюминий (Al) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Аминокислоты (32 показателя): Аланин (ALA), Аргинин (ARG), Аспарагиновая кислота (ASP), Цитруллин (CIT), Глутаминовая кислота (GLU), Глицин (GLY), Метионин (MET), Орнитин (ORN), Фенилаланин (PHE), Тирозин (TYR), Валин (VAL), Лейцин (LEU), Изолейцин (ILEU), Гидроксипролин (HPRO), Серин (SER), Аспарагин (ASN), a-аминоадипиновая к-та (AAA), Глутамин (GLN), b-аланин (BALA), Таурин (TAU), Гистидин (HIS), Треонин (THRE), 1-метилгистидин (1MHIS), 3-метилгистидин (3MHIS), y-аминомасляная к-та (GABA), b-аминоизомасляная к-та (BAIBA), a-аминомасляная к-та (AABA), Пролин (PRO), Цистатионин (CYST), Лизин (LYS), Цистин (CYS), Цистеиновая кислота (CYSA) - в крови</td>
+                                <td>28980тг (6-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Аминокислоты в моче - экспертное количественное исследование</td>
+                                <td>32200тг</td>
+                              </tr>
+                              <tr>
+                                <td>Аминокислоты в плазме крови - скрининговое полуколичественное исследование для лиц старше 18 лет</td>
+                                <td>25760тг</td>
+                              </tr>
+                              <tr>
+                                <td>Андрогены, глюкокортикоиды, прогестогены и их метаболиты (12 показателей): кортизон, кортизол, кортикостерон, прогестерон,21-деоксикортизол, 17-гидроксипрогестерон, 21-гидроксипрогестерон, тестостерон, дегидроэпиандростерон, андростендион 17-ОН-прегненолон, 11-дезоксикортизол в крови</td>
+                                <td>39340тг (10д)</td>
+                              </tr>
+                              <tr>
+                                <td>Арипипразол (Абилифай, Зилаксера) в крови</td>
+                                <td>21860тг</td>
+                              </tr>
+                              <tr>
+                                <td>Ацилкарнитины в моче: скрининговое полуколичественное исследование</td>
+                                <td>23840тг</td>
+                              </tr>
+                              <tr>
+                                <td>Ацилкарнитины в плазме крови - скрининговое полуколичественное исследование для лиц старше 18 лет</td>
+                                <td>23840тг</td>
+                              </tr>
+                              <tr>
+                                <td>Бета-каротин в крови</td>
+                                <td>12380 (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Биогенные амины: адреналин, норадреналин, дофамин, серотонин - в крови</td>
+                                <td>12420тг</td>
+                              </tr>
+                              <tr>
+                                <td>Биогенные амины: адреналин, норадреналин, дофамин - в моче</td>
+                                <td>14360тг (3-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Биогенные амины: адреналин,норадреналин,дофамин, серотонин - крови; и их метаболиты: гомованилиновая кислота (ГВК), ванилин-миндальная кислота (ВМК), 5-окси-индолуксусная кислота (5-ОИУК) - в моче</td>
+                                <td>21260тг</td>
+                              </tr>
+                              <tr>
+                                <td>Бисфенол А, триклозан, 4-нонилфенол (токсины из пластмасс, гигиенических средств, моющих средств, элементов упаковки продуктов питания) в моче</td>
+                                <td>12140тг</td>
+                              </tr>
+                              <tr>
+                                <td>Бор (В) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Бор (В) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Бор (В) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Вальпроевая кислота (депакин) в крови</td>
+                                <td>10120тг</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин B1 (тиамин) в крови</td>
+                                <td>12380тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин B2 (рибофлавин) в крови</td>
+                                <td>12380тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин B3 (ниацин, никотинамид)</td>
+                                <td>12300тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин B5 (пантотеновая кислота) в крови</td>
+                                <td>12380тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин B6 (пиридоксин) в крови</td>
+                                <td>7080тг</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин C (аскорбиновая кислота) в крови</td>
+                                <td>12380тг</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин D: 25-ОН D2 (25-гидроксиэргокальциферол) и 25-ОН D3 (25-гидроксихолекальциферол) РАЗДЕЛЬНО, в крови</td>
+                                <td>26120тг</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин E (токоферол) в крови</td>
+                                <td>12380тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин K (филлохинон) в крови</td>
+                                <td>12380тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Витамин А (ретинол) в крови</td>
+                                <td>12380тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Витамины B9 (фолиевая кислота) и B12, в крови</td>
+                                <td>15180тг</td>
+                              </tr>
+                              <tr>
+                                <td>Витамины группы B (B1, B2, B3, B5, B6, B9, B12), в крови</td>
+                                <td>67340тг</td>
+                              </tr>
+                              <tr>
+                                <td>Глутатион в крови</td>
+                                <td>14380тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Железо (Fe) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Железо (Fe) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Железо (Fe) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Жирорастворимые витамины: A, D, E, K - в крови</td>
+                                <td>46160тг (5-6д)</td>
+                              </tr>
+                              <tr>
+                                <td>Жирорастворимые и водорастворимые витамины - расширенное профильное исследование: A, бета-каротин, D, E, K, C, B1, B2, B3, B5, B6, B9, B12 - в крови</td>
+                                <td>142000тг</td>
+                              </tr>
+                              <tr>
+                                <td>Йод (I) в моче</td>
+                                <td>12600тг</td>
+                              </tr>
+                              <tr>
+                                <td>Кадмий (Cd) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кадмий (Cd) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кадмий (Cd) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Калий (K) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Калий (K) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Калий (K) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кальций (Са) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кальций (Са) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кальций (Са) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Карбамазепин (финлепсин, тигретол,зептол) в крови</td>
+                                <td>10120тг</td>
+                              </tr>
+                              <tr>
+                                <td>Кобальт (Co) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кобальт (Co) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кобальт (Co) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кортизол (утренняя, дневная, вечерняя и ночная порции), дегидроэпиандростерон (ДГЭА), соотношение ДГЭА и кортизола (маркер стрессоустойчивости), выявление стресса и его стадии</td>
+                                <td>24320тг</td>
+                              </tr>
+                              <tr>
+                                <td>Кортизол в слюне (одна порция)</td>
+                                <td>3840тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кортизол в слюне (утренняя порция 8:00, вечерняя порция 23:00)</td>
+                                <td>9100тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кортизол, кортизон и их соотношение в моче</td>
+                                <td>10640тг (10д)</td>
+                              </tr>
+                              <tr>
+                                <td>Коэнзим Q10 в крови</td>
+                                <td>16680тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кремний (Si) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кремний (Si) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Кремний (Si) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Ламотриджин (Конвульсан, Ламолеп, Ламиктал, Сейзар, Ламептил) в крови</td>
+                                <td>17820тг</td>
+                              </tr>
+                              <tr>
+                                <td>Леветирацетам (Кеппра, Комвирон) в крови</td>
+                                <td>17820тг</td>
+                              </tr>
+                              <tr>
+                                <td>Лептин</td>
+                                <td>8800тг</td>
+                              </tr>
+                              <tr>
+                                <td>Лизодрен (Митотан, Хлордитан) в крови</td>
+                                <td>17820тг</td>
+                              </tr>
+                              <tr>
+                                <td>Литий (Li) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Литий (Li)в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Литий терапевтический</td>
+                                <td>6500тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Магний (Mg) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Магний (Mg) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Магний (Mg) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Малоновый диальдегид (стабильный конечный продукт ПОЛ) в крови</td>
+                                <td>14080тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Марганец (Mn) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Марганец (Mn) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Марганец (Mn) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Медь (Cu) в волосах</td>
+                                <td>3860тг</td>
+                              </tr>
+                              <tr>
+                                <td>Медь (Cu) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Медь (Cu) в моче</td>
+                                <td>5000тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Мелатонин в слюне</td>
+                                <td>11820тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Мелатонин: суточный ритм секреции (утренняя, дневная, вечерняя, ночная порции) в слюне</td>
+                                <td>37960тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Метаболиты адреналина и норадреналина: метанефрин, норметанефрин (свободные и коньюгированные с SO4) - в моче</td>
+                                <td>12720тг (3-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Метаболиты андрогенов (5 показателей): андростерон, андростендион, дегидроэпиандростерон (ДГЭА), этиохоанолон, эпиандростерон - в моче</td>
+                                <td>10860тг (3-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Метаболиты биогенных аминов: гомованилиновая кислота (ГВК), ванилин-миндальная кислота (ВМК), 5-окси-индолуксусная кислота (5-ОИУК) - в моче</td>
+                                <td>14360тг (3-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Метаболиты эстрогенов, расчет соотношений (оценка риска развития онкопатологии ): 16а-ОНЕ1, 2-ОНЕ2, 2-ОНЕ1, 2-ОМеЕ1, 4-ОМеЕ2, 4-ОНЕ1 - в моче</td>
+                                <td>30940тг (5-7д)</td>
+                              </tr>
+                              <tr>
+                                <td>Молибден (Mo) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Молибден (Mo) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Молибден (Mo) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Мышьяк (As) в волосах</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Мышьяк (As) в крови</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                <td>Мышьяк (As) в моче</td>
+                                <td>3860тг (4-5д)</td>
+                              </tr>
+                              <tr>
+                                  <td>Наркотические, психотропные и сильнодействующие вещества (опиаты и их синтетические аналоги: героин, морфин, метадон, трамадон); амфетамин и производные амфетамина (метамфетамин, экстази); наркотические средства из конопли (марихуана, гашиш); барбитураты (фенобарбитал, циклобарбитал, барбамил и т.д); бензодиазепины (реланиум, феназепам, седуксен и т.д); кокаин: скрининговое выявление в волосах</td>
+                                  <td>71760тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Натрий (Na) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Натрий (Na) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Натрий (Na) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Ненасыщенные жирные кислоты семейства Омега-3 и Омега-6: докозагексаеновая (DHA), эйкозапентаеновая (EPA), линолевая, линоленовая, арахидоновая кислоты - в крови</td>
+                                  <td>55200тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Ненасыщенные жирные кислоты семейства Омега-3: докозагексаеновая (DHA), эйкозапентаеновая (EPA) - в крови</td>
+                                  <td>28980тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Ненасыщенные жирные кислоты семейства Омега-6: линолевая, линоленовая, арахидоновая кислоты - в крови</td>
+                                  <td>28980тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Никель (Ni) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Никель (Ni) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Никель (Ni) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Окскарбазепин (Трилептал) в крови</td>
+                                  <td>19880тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Оланзапина (Зипрекса, Залакса, Парнасан, Эголанза) в крови</td>
+                                  <td>17820тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Омега-3 индекс - соотношение докозагексаеновой (DHA) и эйкозапентаеновой (EPA) жирных кислот в крови: оценка риска сердечно-сосудистых заболеваний и инфаркта миокарда</td>
+                                  <td>32460тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Органические кислоты (28 показателей): Молочная кислота, Гликолиевая кислота, Глутаровая кислота, Пировиноградная кислота, Адипиновая кислота, Изовалериановая кислота, Гиппуровая кислота, 3-гидроксимасляная кислота, 3-гидрокси-3-метилглутаровая кислота, Гидроксифенилмолочная к-та, 4-гидроксифенилпировиноградная к-та, 4-гидроксифенилуксусная к-та, Метилмалоновая кислота, Этилмалоновая кислота, Мевалоновая кислота, 3-метил-2-оксовалериановая кислота, 4-метил-2-оксовалериановая кислота, 2-гидроксиизокапроновая к-та, Фенилпировиноградная к-та, Фенилмолочная кислота, Гомогентизиновая кислота, 2-метил-3-гидроксимасляная кислота, 3-метилглутаровая кислота, Субериновая кислота, Себациновая кислота, Сукциновая кислота,N-ацетиласпа</td>
+                                  <td>27940тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Органические кислоты в моче - выявление функциональных метаболических изменений (60 показателей): маркеры углеводного обмена; маркеры метаболизма в цикле трикарбоновых кислот (в цикле Кребса), энергообеспечения клеток, митохондриальной дисфункции, маркеры кетогенеза, дисрегуляции обмена углеводов и бета-окисления жирных кислот; маркеры метаболизма разветвленных аминокислот; маркеры метаболизма ароматических аминокислот (фенилаланина и тирозина); маркеры метаболизма триптофана; маркеры метаболизма щавелевой кислоты (оксалатов); маркеры достаточности витаминов; маркеры кофакторного метилирования; маркеры детоксикации и эндогенной интоксикации; маркеры интоксикации производными бензола; маркеры дисбиоза кишечника</td>
+                                  <td>59800тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Органические кислоты в моче - скрининговое выявление лабораторных признаков наследственных болезней обмена у новорожденных и детей до 2-х лет (40 показателей): адипиновая, 3-гидроксиизовалериановая, 3-гидроксимасляная, 2-гидроксимасляная кислота, пара-гидроксифенилмолочная, пара-гидроксифенилпировиноградная, орто-гидроксифенилуксусная, 3-гдрокси-3-метилглутаровая кислота, 2-гидрокси-3-метилбутановая кислота, гиппуровая кислота, глицериновая кислота, глутаровая кислота, гомогентизиновая, изовалерилглицин, 3-индолилуксусная, 2-кетоглутаровая кислота, 2-кетоизовалериановая, ксантуреновая, лимонная кислота, малоновая, 3-метилглутаровая кислота, 3-метилкротонилглицин, метилмалоновая, метилянтарная , 4-метил-2-оксовалерьяновая, 3-метил-2-оксовалерьяновая, миндальная, молочная, оротовая, пиколиновая, пировиноградная</td>
+                                  <td>26500тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Перекисное окисление липидов (ПОЛ) суммарно в крови</td>
+                                  <td>9480тг (5-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Пиридинолин и дезоксипиридинолин (ПИД и ДПИД) - в моче</td>
+                                  <td>11560тг (5-6д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Предварительное исследование мочи на наркотические, психотропные и сильнодействующие вещества (опиаты и их синтетические аналоги: героин, морфин, метадон, трамадон; амфетамин и производные амфетамина (метамфетамин, экстази); наркотические средства из конопли (марихуана, гашиш); барбитураты (фенобарбитал, циклобарбитал, барбамил и т.д) бензодиазепины (реланиум, феназепам, седуксен и т.д); кокаин</td>
+                                  <td>9780тг </td>
+                                </tr>
+                                <tr>
+                                  <td>Пурины, пиримидины, их предшествиники и метаболиты (20 показателей): Гуанозин, Инозин, Дезоксигуанозин, Аденозин, Уридин, Цитидин, Тимидин, Дезоксиуридин, Мочевая кислота, Оротовая кислота, Гуанин, Гидроксиметилурацил, Аденин, Уреидопропионовая кислота, Тимин, Дигидроурацил, b-аланин, Урацил, Дезоксиаденозин, Ксантин - в моче</td>
+                                  <td>36440тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Пурины, пиримидины, их предшествиники и метаболиты (20 показателей): Гуанозин, Инозин, Дезоксигуанозин, Аденозин, Уридин, Цитидин, Тимидин, Дезоксиуридин, Мочевая кислота, Оротовая кислота, Гуанин, Гидроксиметилурацил, Аденин, Уреидопропионовая кислота, Тимин, Дигидроурацил, b-аланин, Урацил, Дезоксиаденозин, Ксантин - в крови</td>
+                                  <td>36440тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Рисперидона (Рисполепт, Рилептид, Рисполюкс, Рисдонал, Сперидан) в крови</td>
+                                  <td>21860тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Ртуть (Hg) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Ртуть (Hg) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Ртуть (Hg) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Свинец (Pb) в волосах</td>
+                                  <td>3860тг </td>
+                                </tr>
+                                <tr>
+                                  <td>Свинец (Pb) в крови</td>
+                                  <td>3860тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Свинец (Pb) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Свободные жирные кислоты (НЭЖК или СЖК) суммарно - субстрат ПОЛ - в крови</td>
+                                  <td>11320тг (5-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Свободные жирные кислоты - НЭЖК или СЖК (14 показателей): Общие жирные кислоты, уксусная кислота (С2), пропионовая (С3), маслянная (С4), валериановая (С5), капроновая (С6), лауриновая кислота С12:0, миристиновая кислота С14:0, миристоолеиновая кислота С14:1, пальмитиновая C16:0, пальмитолеиновой C16:1, стериновая C18:0, олеиновая кислота С18:1 - в крови</td>
+                                  <td>26680тг (6-7д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Свободные фракции метанефрина и норметанефрина (неконьюгированные с SO4) - в крови</td>
+                                  <td>12720тг (3-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Свободные фракции метанефрина и норметанефрина (неконьюгированные с SO4) - в моче</td>
+                                  <td>12720тг (3-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Селен (Se) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Селен (Se) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Селен (Se) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Сурьма (Sb) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Сурьма (Sb) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Сурьма (Sb) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Титан (Ti) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Титан (Ti) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Титан (Ti) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Токсичные микроэлементы и тяжелые металлы: Hg,Cd, As,Li,Pb,Al (6 элементов) в волосах</td>
+                                  <td>11620тг (5-6д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Токсичные микроэлементы и тяжелые металлы: Hg, Cd, As,Li,Pb,Al (6 элементов) в крови</td>
+                                  <td>11620тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Токсичные микроэлементы и тяжелые металлы: Hg, Cd, As, Li, Pb, Al (6 элементов) в моче</td>
+                                  <td>11620тг (5-6д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Токсичные микроэлементы: Cd,Hg,Pb (3 элемента) в волосах</td>
+                                  <td>9860тг (5-6д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Токсичные микроэлементы: Cd, Hg, Pb (3 элемента) в крови</td>
+                                  <td>9860тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Токсичные микроэлементы: Cd, Hg, Pb (3 элемента) в моче</td>
+                                  <td>9860тг (5-6д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Топирамат (Топамакс, Топсавер, Топалепсин, Топиромакс, Эпимакс) в крови</td>
+                                  <td>21860тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Трансферин с низким уровнем гликирования (CDT): лабораторный критерий злоупотребления алкоголем</td>
+                                  <td>14580тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Фенобарбитал (Фенобарбитал, Валокордин, Корвалдин, Паглюферал) в крови</td>
+                                  <td>16180тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Хром (Cr) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Хром (Cr) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Хром (Cr) в моче</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Цинк (Zn) в волосах</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Цинк (Zn) в крови</td>
+                                  <td>3860тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Цинк (Zn) в моче</td>
+                                  <td>3860тг </td>
+                                </tr>
+                                <tr>
+                                  <td>Циталопрам (Ципрамил, Опра, Сиозам, Цитол, Прам) в крови</td>
+                                  <td>21860тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Щитовидная железа (I, Se, Mg, Cu; Витамин B6)</td>
+                                  <td>20280тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Se, Zn, Co, Mn, Mg, Cu, Fe, Ca, Hg, As, Pb, Cd, Al (13 элементов) в волосах</td>
+                                  <td>14480тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Se, Zn, Co, Mn, Mg, Cu, Fe, Ca, Hg, As, Pb, Cd, Al (13 элементов) в крови</td>
+                                  <td>15060тг </td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Se, Zn, Co, Mn, Mg, Cu, Fe, Ca, Hg, As, Pb, Cd, Al (13 элементов) в моче</td>
+                                  <td>14480тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Se, Zn, Co, Mn, Mg, Cu, Fe, Ca, Hg, As, Pb, Cd, Al (13 элементов) в ногтях</td>
+                                  <td>14480тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb (23 элемента) в волосах</td>
+                                  <td>23840тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb (23 элемента) в крови</td>
+                                  <td>23840тг</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb (23 элемента) в моче</td>
+                                  <td>23840тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Li, B, Na, Mg ,Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb (23 элемента) в ногтях</td>
+                                  <td>29840тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb,Hg, Pb, Ba, Au, V, Ag, Be, Bi, W, Ga, Ge, I, La, Sn, Pt, Rb, Sr, P, Zr (40 элементов) в волосах</td>
+                                  <td>29520тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb, Ba, Au, V, Ag, Be, Bi, W, Ga, Ge, I, La, Sn, Pt, Rb, Sr, P, Zr (40 элементов) в крови</td>
+                                  <td>29820тг </td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb, Ba, Au, V, Ag, Be, Bi, W, Ga, Ge, I, La, Sn, Pt, Rb, Sr, P, Zr (40 элементов) в моче</td>
+                                  <td>29520тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эссенциальные и токсичные микроэлементы: Mg, Mn, Cu, Zn, As, Se, Hg, Cd, Pb, Cr (10 элементов) в цельной крови</td>
+                                  <td>11680тг (4-5д)</td>
+                                </tr>
+                                <tr>
+                                  <td>Эстрогены: эстрадиол, эстрон и эстриол в крови</td>
+                                  <td>13000тг (7-9д)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation11" aria-expanded="false" aria-controls="rehabilitation11">
+                    Биохимия крови
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation11">
+                    <table class="col-8 table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                            <tr>
+                              <th scope="col">Услуга:</th>
+                              <th scope="col">Цена:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td>25-OH витамин D</td>
+                              <td>5000тг (2д)</td>
+                            </tr>
+                            <tr>
+                              <td>IgA (иммуноглобулин А)</td>
+                              <td>2180тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>IgG (иммуноглобулин G)</td>
+                              <td>2180тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>IgM (иммуноглобулин М)</td>
+                              <td>2180тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>IgЕ (иммуноглобулин Е)</td>
+                              <td>2580тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Аланинаминотрансфераза (АЛТ)</td>
+                              <td>840тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Альбумин</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Альфа-1-Антитрипсин</td>
+                              <td>900тг (5-7д)</td>
+                            </tr>
+                            <tr>
+                              <td>Альфа-амилаза</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Альфа-амилаза панкреатическая</td>
+                              <td>1000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Антистрептолизин О (АСЛО)</td>
+                              <td>1680тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Антитела к циклическому цитрулиновому пептиду - анти-ССР, маркер Ревматоидного артрита</td>
+                              <td>6000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Аполипопротеин А1</td>
+                              <td>1980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Аполипопротеин В</td>
+                              <td>2480тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Аспартатаминотрансфераза (АСТ)</td>
+                              <td>840тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Белковые фракции - электрофорез белков крови</td>
+                              <td>3400тг (2-3д)</td>
+                            </tr>
+                            <tr>
+                              <td>Билирубин общий</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Билирубин прямой</td>
+                              <td>880тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Вальпроевая кислота - депакин, конвулекс</td>
+                              <td>5000тг (3д)</td>
+                            </tr>
+                            <tr>
+                              <td>Витамин В12</td>
+                              <td>2500тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Гаммаглютамилтрансфераза (ГГТП)</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Гликозилированный гемоглобин</td>
+                              <td>2180тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Глюкоза (сахар крови)</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Гомоцистеин</td>
+                              <td>4800тг (2-3д)</td>
+                            </tr>
+                            <tr>
+                              <td>Железо (Fe)</td>
+                              <td>1000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Кальций общий (Са)</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Креатинин</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Креатинкиназа (КФК)</td>
+                              <td>1000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Лактат</td>
+                              <td>1600тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Лактатдегидрогеназа (ЛДГ)</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Латентная железосвязывающая способность сыворотки (ЛЖСС)</td>
+                              <td>1100тг(1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Липаза</td>
+                              <td>1380тг (1Д0</td>
+                            </tr>
+                            <tr>
+                              <td>М-градиент, иммунотипирование с панелью антисывороток (IgG/A/M/каппа/лямбда) с количественной оценкой М-градиента</td>
+                              <td>14980тг (2-3д)</td>
+                            </tr>
+                            <tr>
+                              <td>Магний (Мg)</td>
+                              <td>900тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Мочевая кислота</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Мочевина</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Общий белок</td>
+                              <td>880тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Определение ионизированного кальция (Ca+) в сыворотке крови на анализаторе</td>
+                              <td>1700тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Определение калия (K) в сыворотке крови на анализаторе</td>
+                              <td>1000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Определение натрия (Na) в сыворотке крови на анализаторе</td>
+                              <td>1000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Определение хлоридов (Cl) в сыворотке крови на анализаторе</td>
+                              <td>1000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Ревматоидный фактор (РФ)</td>
+                              <td>1680тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>С-реактивный белок (СРБ)</td>
+                              <td>1280тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>С-Реактивный белок кардио (высокочувствительный)</td>
+                              <td>1500тг (2д)</td>
+                            </tr>
+                            <tr>
+                              <td>С3 компонент комплемента</td>
+                              <td>2000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>С4 компонент комплемента</td>
+                              <td>2000тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Трансферрин</td>
+                              <td>1680тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Триглицериды</td>
+                              <td>880тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Ферритин</td>
+                              <td>1680тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Фолиевая кислота</td>
+                              <td>2500тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Фосфор неорганический</td>
+                              <td>900тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Холестерин общий</td>
+                              <td>880тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Холестерин-ЛПВП</td>
+                              <td>980тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Холестерин-ЛПНП</td>
+                              <td>1200тг (1д)</td>
+                            </tr>
+                            <tr>
+                              <td>Церулоплазмин</td>
+                              <td>2100тг (2д)</td>
+                            </tr>
+                            <tr>
+                              <td>Щелочная фосфатаза (ЩФ)</td>
+                              <td>840тг (1д)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a style="font-size: .8rem;" class="btn btn-outline-dark mb-3" type="button" data-toggle="collapse" data-target="#rehabilitation12" aria-expanded="false" aria-controls="rehabilitation12">
+                    Гормоны
+                </a><br>
+                <div class="card-deck mb-3 collapse" id="rehabilitation12">
+                    <table class="col-7 table table-sm table-hover" style="font-size: .8rem;">
+                        <thead>
+                            <tr>
+                              <th scope="col">Услуга:</th>
+                              <th scope="col">Цена:</th>
+                            </tr>
+                        </thead>
+                            <tbody>
+                                <tr>
+                                    <td>17-ОН прогестерон</td>
+                                    <td>2520тг (2-5д)</td>
+                                </tr>
+                                <tr>
+                                    <td>АКТГ (адренокортикотропный гормон)</td>
+                                    <td>3800тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Альдостерон</td>
+                                    <td>4000тг (3-5д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Анти-ТГ (антитела к тиреоглобулину)</td>
+                                    <td>2240тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Анти-ТПО (антитела к микросомальной тиреопероксидазе)</td>
+                                    <td>2200тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Антитела к рецепторам ТТГ</td>
+                                    <td>7000тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Глобулин, связывающий половые гормоны - ГСПГ, секс гормон</td>
+                                    <td>4500тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>ДГЭА-сульфат (Дегидроэпиандростерон-сульфат)</td>
+                                    <td>2380тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Инсулин</td>
+                                    <td>2880тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Инсулиноподобный фактор роста 1</td>
+                                    <td>5500тг (3-5д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Кортизол</td>
+                                    <td>2080тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Кортизол, слюна</td>
+                                    <td>1960тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>ЛГ (лютеинизирующий гормон)</td>
+                                    <td>1980тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Макропролактин</td>
+                                    <td>4800тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Мозговой натрийуретический пропептид</td>
+                                    <td>9600тг (2д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Определение кальцитонина в сыворотке крови методом иммунохемилюминисценции</td>
+                                    <td>5380тг (3-5д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Паратгормон</td>
+                                    <td>3880тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Прогестерон</td>
+                                    <td>1980тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Прокальцитонин</td>
+                                    <td>8400тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Пролактин</td>
+                                    <td>2000тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>С-пептид</td>
+                                    <td>2860тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Соматотропный гормон - Соматотропин, СТГ, гормон роста</td>
+                                    <td>6000тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Т3 (трийодтиронин) общий</td>
+                                    <td>1800тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Т3 (трийодтиронин) свободный</td>
+                                    <td>2080тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Т4 (тироксин) общий</td>
+                                    <td>1800тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Т4 (тироксин) свободный</td>
+                                    <td>2000тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Тестостерон</td>
+                                    <td>1980тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>ТТГ (тиреотропный гормон) ультрачувствительный</td>
+                                    <td>1800тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>ФСГ (фолликулостимулирующий гормон)</td>
+                                    <td>2080тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>ХГЧ (хорионический гонадотропин)</td>
+                                    <td>1960тг (1д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Эритропоэтин</td>
+                                    <td>7500тг (3-4д)</td>
+                                </tr>
+                                <tr>
+                                    <td>Эстрадиол</td>
+                                    <td>2080тг (1д)</td>
+                                </tr>
+                            </tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+      </main>  
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <div class="row">
+                    <div class="col-3">
+                        <h3 class="mb-4">Реабилитация</h3>
+                        <a href="#">Инсульт</a>
+                        <a href="#">Травма головы</a>
+                        <a href="#">Травма позвоночника</a>
+                        <a href="#">Инфаркт миокарда</a>
+                        <a href="#">Онкология</a>
+                        <a href="#">Эндопротезирование и траватология</a>
+                        <a href="#">После операций</a>
+                        <a href="#">Гериатрия (уход за пожилыми)</a>
+                        <a href="#">Помиативная теропия</a>
+                        <a href="#">Пост ковидный чек-ап</a>
+                    </div>
+                    <div class="col-3">
+                        <h3 class="mb-4">Условия и улуги</h3>
+                        <a href="#">Обязательный перечень исследований</a>
+                        <a href="#">Процесс реабилитации</a>
+                        <a href="#">Прайс-лист</a>
+                        <a href="#" class="mb-4">Проживание</a>
+                        
+                    </div>
+                    <div class="col-3">
+                        <h3 class="mb-4">О нас</h3>
+                        <a href="#">3D Тур</a>
+                        <a href="#">Мисся</a>
+                        <a href="#">Наша команда</a>
+                        <a href="#">Интервью наших специалистов</a>
+                    </div>
+                    <div class="col-3">
+                        <h3 class="mb-4">Социальные сети</h3>
+                        <div class="footer-social">
+                            <a href="#">
+                                <img src="assets/images/instagram.svg" alt="Instagram">
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/facebook.svg" alt="Instagram">
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/youtube.svg" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-down">
+                <div class="row">
+                    <div class="col-2">
+                        <h3>Dos-medicus</h3>
+                        <small class="d-block mb-3 text-muted">© 2017-2020</small>
+                    </div>
+                    <div class="col-4 text-center">
+                        <p>Контакты:<br>8 705 296 25 69,<br> 8 775 603 01 30</p>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="footer-btn btn btn-lg btn-outline-light">Прислать выписку</button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="footer-btn btn btn-lg btn-outline-light">Оплатить заказ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>  </div>
+  
+  <!-- JS -->
+  <script src="assets/js/libs.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
